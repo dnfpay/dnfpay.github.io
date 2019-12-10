@@ -1,0 +1,193 @@
+@charset "utf-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, label {
+	padding: 0;
+	margin: 0;
+}
+body {
+	line-height:150%;
+	color:#333333;
+	font-family:"??????";
+	font-size:12px;
+	width:100%;
+	overflow-x:hidden;
+}
+.fnm1 {
+	font-family:"????"
+}
+.fnm2 {
+	font-family:"??????"
+}
+.clearfix:before, .clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+/* CSS Document */
+/*??????*/
+.ynewqq {
+	width:140px;
+	height:auto;
+	position: fixed;
+	z-index:9900;
+	right:0px;
+	top:120px;
+	border-radius:4px 4px 0px 0px;
+	_position:absolute;
+_top:expression(eval(document.body.scrollTop + (document.body.clientHeight)-10-(this.offsetHeight)));
+	background:#fff;
+}
+.ynewqq .ytit01 {
+	height:30px;
+	width:100%;
+	background:url(../image/ykf01.png) no-repeat #dc585d;
+	border-radius:4px 4px 0px 0px;
+	overflow:hidden;
+}
+.ynewqq h3.bt {
+	font-size:14px;
+	font-family:"??????";
+	font-weight:normal;
+	color:#fff;
+	line-height:30px;
+	text-indent:6px;
+}
+.ynewqq .nr {
+	border:1px solid #cb8389;
+	border-top:none;
+	overflow:hidden;
+	border-radius:0px 0px 4px 4px;
+}
+.ynewqq .ytit02 {
+	height:30px;
+	width:100%;
+	overflow:hidden;
+	background:url(../image/ykf02.jpg) repeat-x;
+}
+.ynewqq ul.zxlb {
+	padding:5px 3px 10px;
+}
+.ynewqq ul.zxlb li {
+	overflow:hidden;
+	width:100%;
+	clear:both;
+	padding-top:6px;
+}
+.ynewqq ul.zxlb .mc {
+	color:#636363;
+	font-family:"????";
+	font-size:12px;
+	height:22px;
+	line-height:22px;
+	float:left;
+}
+.ynewqq ul.zxlb img {
+	vertical-align:middle;
+	float:left;
+}
+.ynewqq .dh {
+	padding:10px;
+	overflow:hidden;
+	clear:both;
+}
+.ynewqq .dh img {
+	float:left;
+}
+.ynewqq .dh span {
+	font-size:18px;
+	color:#ca0000;
+	font-family:"??????";
+	float:left;
+	margin-left:6px;
+}
+.ynewqq .yybg01 {
+	background:url(../image/ykf011.jpg) repeat-x #fff;
+}
+.ynewqq .yybg02 {
+	background:url(../image/ykf02.jpg) repeat-x #fff;
+}
+#qqxs {
+	position:absolute;
+	right:0px;
+	top:0px;
+	cursor:pointer;
+}
+#qqlist {
+	right:0px;
+	display:none;
+}
+/*20-21*??????*/
+ #qqfloat {
+	z-index:9999;
+}
+#ykfOpenBox {
+	width:174px;
+}
+#ykfOpenBox .ykf_top {
+	height:70px;
+	width:174px;
+	background:url(../image/ykf01.png) no-repeat;
+}
+#ykfOpenBox .ykf_body {
+	width:174px;
+	background:#18a4ef;
+	padding-bottom:10px;
+	overflow:hidden;
+	border-radius:0 0 4px 4px;
+}
+#ykfOpenBox .ykf_body .nrlist {
+	width:152px;
+	border:1px solid #0f82c0;
+	background:#dbf3ff;
+	overflow:hidden;
+	margin:0 auto;
+	border-radius:4px 4px 4px 4px;
+}
+#ykfCloseBtn {
+	width:10px;
+	height:10px;
+	position:absolute;
+	background:url(../image/ykf03.png) no-repeat 0 -96px;
+	cursor:pointer;
+	overflow:hidden;
+	text-indent:-999em;
+	right:13px;
+	top:8px;
+	opacity:0.5;
+}
+#ykfCloseBtn:hover {
+	opacity:1;
+}
+#ykfOpenBox .ykf_body .nrlist dl dt {
+	height:32px;
+	color:#002031;
+	line-height:32px;
+	padding-left:20px;
+	background:url(../image/ykf03.png) no-repeat 5px 9px #b3e5ff;
+}
+#ykfOpenBox .ykf_body .nrlist dl dd {
+	padding:10px 0 2px;
+	overflow:hidden;
+	text-align:center;
+}
+#ykfOpenBox .ykf_body .nrlist dl dd ul li {
+	padding-bottom:8px;
+	overflow:hidden;
+}
+#ykfOpenBox .ykf_body .nrlist dl dd ul li img {
+	vertical-align:middle;
+}
+#ykfOpenBox .ykf_body .nrlist dl dd.tel {
+	font-size:16px;
+	color:#00314c;
+	padding-bottom:8px;
+}
+#ykfColseBox {
+	width:40px;
+	height:156px;
+	background:url(../image/y13kf_02.png) no-repeat;
+	float:right;
+	overflow:hidden;
+	cursor:pointer;
+	display:none;
+}

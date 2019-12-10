@@ -1,0 +1,59 @@
+body{font-size:9pt; margin:0px; padding:0px;background:url(../image/login_bodybg01.gif) repeat-x center center #152652;} 
+a:link,a:visited,a:active{ color: #79a9c8; text-decoration: none}
+a:hover{ color: #fff; text-decoration: none; position: relative; right: 0px; top: 0px}
+form{margin:0px; padding:0px;}
+
+ /*???????*/
+.divmain_login {
+	font-size:12px;
+	font-weight:normal;
+	height:680px;
+	width:100%;
+	margin:0; padding:0;
+}
+.loginform{
+	height:450px;
+	width:600px;
+	margin-top:165px;
+	position:relative;
+}
+.divlogin_login {
+	top:160px;
+	width:300px;
+	height:180px;
+	left:200px;
+	position:absolute
+}
+.input{width:145px; height:20px; border:1px solid #7F9DB9; padding:0px;  margin:0;}
+.input_yz{width:100px; height:20px; border:1px solid #7F9DB9; padding:0; margin:0;}
+.btn{
+	width:100px;
+	height:40px;
+	color:#2a4a61;
+        background:white;
+	border:0;
+	cursor:pointer;
+	padding:0 0 4px 0;
+        padding:2px 0 0 0;
+        font-size:12px;
+}
+
+.btn_over{
+	width:100px;
+	height:40px;
+	color:#2a4a61;
+	border:0;
+        background:orange;
+	cursor:pointer;
+	padding:0 0 4px 0;
+        padding:2px 0 0 0;
+        font-size:12px;
+}
+
+.divlogin_login  td{font-size:12px;	font-weight:bold;color:#2a4a61;line-height:120%;} 
+.divbot_login {
+	font-size: 10pt;
+	color: #79a9c8;
+	height:35px;
+}
+/*???????*/

@@ -1,0 +1,198 @@
+/* 网站名称：孤岛资源网
+网站网址：www.gudao6.com
+开发时间：2018年7月5日
+作者扣扣：45238864 */
+
+* {
+	margin: 0px; padding: 0px;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif;
+    letter-spacing:1.2px;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+img{
+    border: currentColor; border-image: none;
+}
+a{
+    text-decoration:none;
+    text-align:center;
+    cursor:pointer;
+}
+a:hover {
+	color: rgb(183, 0, 4); text-shadow: 0px 0px 0.5em rgba(183,0,4,0.9);
+}
+.container{
+    width:1200px;
+    margin:0 auto;
+    position:relative;
+}
+.clear{
+    clear:both;
+}
+header{
+    background: url("../imgs/header_bg.jpg");
+    height: 60px;
+    line-height: 60px;
+    min-width: 1200px;
+}
+header .logo{
+    float: left;
+    margin-left: 10px;
+    font-size: 24px;
+	width: 40%;
+    color: #827c79;
+}
+header .logo img{
+    vertical-align: middle;
+}
+
+header .nav {
+    float: right;
+    margin-left: 10px;
+    font-size: 24px;
+	width: 540px;
+}
+
+.nav ul {
+    display: inline-block;
+    float: right;
+}
+
+.nav li {
+    display: block;
+    float: left;
+    height: 60px;
+    position: relative;
+}
+
+.nav li a {
+    display: block;
+    float: left;
+    line-height: 60px;
+    color: #eee;
+    font-size: 16px;
+    padding: 0 35px;
+    position: relative;
+    border-left: 1px solid #353a3f;
+}
+.nav li a:hover {
+	color: rgb(183, 0, 4); text-decoration: none;
+}
+.nav li a.mutl {
+	padding: 0px 30px 0px 20px;
+}
+
+.cur:before {
+    content: "";
+    background: #B70004;
+    height: 3px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0px;
+    background-color: #B70004;
+}
+
+.section1{
+    background: url("../imgs/section1_bg.jpg") no-repeat center top;
+    height: 800px;
+    min-width: 1200px;
+}
+.section_li{
+    position: relative;
+    float: left;
+    width: 298px;
+    height: 502px;
+    border:1px solid transparent;
+    margin-top: 100px;
+    overflow: hidden;
+    transition: .2s;
+    cursor: pointer;
+    color: rgba(255,255,255,0.8);
+}
+.actived{
+    transform: scale(1.02);
+    border-color:#00c0ff;
+    box-shadow: 0 0 8px #00c0ff;
+    color: #ff0000;
+    z-index: 1001;
+}
+.section1 li span{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 440px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 0 1px 2px #000;
+}
+.section1 li span i{
+    display: block;
+    vertical-align: middle;
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+
+.yqlj ul{
+	clear:both;
+    background: url("../imgs/header_bg.jpg");
+    height: 40px;
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.yqlj b {
+    width: 100px;
+    float: left;
+    height: 58px;
+    text-align: center;
+    color: rgba(255,255,255,0.8);
+}
+
+.yqlj a {
+    width: 100px;
+    float: left;
+    text-align: center;
+	color: rgba(255,255,255,0.8);
+}
+
+.boot ul {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+    line-height: 19px;
+    font-size: 14px;
+    margin: auto;
+    color: rgba(255,255,255,0.8);
+}
+
+footer{
+    background: url("../imgs/footer_bg.jpg") no-repeat center;
+    height: 100px;
+    min-width: 100%;
+    line-height: 100px;
+    color: rgba(255,255,255,0.3);
+    font-size: 14px;
+    text-align: center;
+}
+
+.ditubody{margin-bottom:0px;background:url("../imgs/ditu.jpg") no-repeat; background-size:100%100%;}
+.neirong{width: 1160px;margin: auto;margin-top: 60px;background-color: #fff;color: #000;padding: 20px;height: 200px;}
+.neirong img{width: 200px;height: 200px;float: left;margin: 0px 20px 20px 0px;}
+.neirong h1{width: 940px;height: 32px;float: left;margin-bottom: 10px;}
+.neirong p{width: 940px;height: 32px;line-height: 32px;float: left;margin-bottom: 10px;}
+.neirong li a{width: 100px;height: 32px;line-height: 32px;float: left;margin-right: 20px;text-align: center;background-color: #e0e0e0;color: #fff;text-decoration: none;}
+.neirong li a:hover{background-color: red;color: #fff;}
+.neirong_tit{width: 1160px;margin: auto;margin-top: 20px;margin-bottom: 20px;line-height: 32px;background-color: #fff;color: #000;padding: 20px;overflow: hidden;}

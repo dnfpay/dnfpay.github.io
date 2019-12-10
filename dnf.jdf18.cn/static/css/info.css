@@ -1,0 +1,25 @@
+body{height:100%; margin:0px;}
+html { overflow-y: scroll; }
+.text{font-size: 12px;line-height:26px;color: #000000;text-decoration: none;}
+.text:hover{font-size: 12px;line-height:26px;color: #00C;text-decoration: none;}
+.in5 {text-indent:5px;}
+.a { border: 1px solid #798ea1;}
+.bx { border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: #fff; border-left-color: #fff; border-right-color: #bbbec3; border-bottom-color: #bbbec3; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; background-color: #f3f8fe; font-size:12px; color:#404f66; height:25px;}
+.bx2 { border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-color: #fff; border-right-color: #babfc3; border-bottom-color: #babfc3; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; background-color: #f3f8fe; font-size:12px; color:#404f66;}
+.by { border-top-style: solid; border-bottom-style: solid; border-top-color: #fff; border-bottom-color: #bbbec3; border-top-width: 1px; border-bottom-width: 1px; background-color: #f3f8fe; font-size:12px; color:#404f66; height:26px;}
+.by1 { border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; border-right-color: #bbbec5; border-bottom-color: #bbbec5; background-color: #fff; border-left-width: 1px; border-left-style: solid; border-left-color: #fff; height:23px;font-size:12px; color:#434343;text-decoration: none;text-indent:5px;}
+.bxy { background-color: #fff; border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; border-right-color: #bcbfc4; border-bottom-color: #bcbfc4; font-size:12px; color:#434343;text-decoration: none;text-indent:5px;}
+.by2 { background-color: #fff; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #bcc0c3; border-right-width: 1px; border-right-style: solid; border-right-color: #fff;color:#434343; font-size:12px; color:#434343;text-decoration: none;text-indent:5px;}
+
+
+.Imgicphead{ background:url(../image/icp-topbg.gif) repeat-x; height:120px; min-width:1050px;}
+.Imgicphead img{ max-width:100%;} 
+.cloesimg{ width:40px; height:20px; display:block; position:absolute; right:50px; bottom:5px;}
+.Imgicp-leftWrap{ overflow:hidden; background:#fff;}
+.Imgicp-left{ width:225px; height:auto; float:left;} 
+.Imgicp-left img{ width:100%;}
+.Imgicp-right{ float:left; width:83%; padding-left:1%; min-width:800px;}
+.Imgicp-right .headtitle {background-image: url("../image/bg04.gif"); height: 25px; margin: 10px auto auto; width: 100%;}
+.Imgicp-right .dhfont {color: #fff;font-size: 12px; text-decoration: none;}
+
+
