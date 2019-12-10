@@ -1,0 +1,77 @@
+@charset "gb2312";
+
+/*-----侧栏------*/
+.qq_onService_panel i,.qq_onService_panel em{font-style:normal;}
+.qq_onService_panel .sidebar2_Mo{position: fixed; right:0; top:50%; margin-top: -179px; z-index:10000;}
+.qq_onService_panel .sidebar2_list{width: 50px; margin-bottom: 10px; position: relative; right:0;}
+.qq_onService_panel .sidebar2_listT,.qq_onService_panel .sidebar2_listB{background-repeat: no-repeat; padding-left:7px;}
+.qq_onService_panel .sidebar2_listT{background-position:left top;}
+.qq_onService_panel .sidebar2_listB{background-position:left bottom;}
+.qq_onService_panel .list_c{height:7px;}
+.qq_onService_panel .ie_w{*width: 43px;}
+.qq_onService_panel .sidebar2_listC{text-align: center;}
+.qq_onService_panel .sidebar2_listC .prev_btn,.qq_onService_panel .sidebar2_listC .next_btn{display: inline-block;}
+.qq_onService_panel .sidebar2_listC .prev_btn{margin-bottom: 10px;}
+.qq_onService_panel .function_list .list{text-align: center; height:40px; width:auto; padding:0; border:0; overflow: inherit; margin-bottom: 10px; position: relative;}
+.qq_onService_panel .function_list .list a{display: inline-block;}
+/*.function_list .list:hover .alt_c{display: block;}*/
+.qq_onService_panel .list .tel_icon,.qq_onService_panel .list .qq_icon,.qq_onService_panel .list .wx_icon,.qq_onService_panel .list .edit_icon,.qq_onService_panel .list .mail_icon,.qq_onService_panel .list .map_icon{background-repeat: no-repeat; background-position: center center; position: relative; margin-top: 7px; width: 100%; z-index: 2;}
+.qq_onService_panel .list .tel_icon{background-image:url('../images/tel_icon.png'); width:26px; height:26px;}
+.qq_onService_panel .list:hover .tel_icon{background-image:url('../images/tel_icon_h.png');}
+.qq_onService_panel .list .qq_icon{background-image:url('../images/qq_icon.png'); width:25px; height:25px;}
+.qq_onService_panel .list:hover .qq_icon{background-image:url('../images/qq_icon_h.png');}
+.qq_onService_panel .list .wx_icon{background-image:url('../images/wx_icon.png'); width:30px; height:23px;}
+.qq_onService_panel .list:hover .wx_icon{background-image:url('../images/wx_icon_h.png');}
+.qq_onService_panel .list .edit_icon{background-image:url('../images/edit_icon.png'); width:25px; height:25px;}
+.qq_onService_panel .list:hover .edit_icon{background-image:url('../images/edit_icon_h.png');}
+.qq_onService_panel .list .mail_icon{background-image:url('../images/mail_icon.png'); width:26px; height:25px;}
+.qq_onService_panel .list:hover .mail_icon{background-image:url('../images/mail_icon_h.png');}
+.qq_onService_panel .list .map_icon{background-image:url('../images/map_icon.png'); width:26px; height:25px;}
+.qq_onService_panel .list:hover .map_icon{background-image:url('../images/map_icon_h.png');}
+.qq_onService_panel .list .record_icon{ background-image: url('../images/record_icon.png'); width: 30px; height: 25px; }
+.qq_onService_panel .list:hover .record_icon{background-image:url('../images/record_icon_h.png');}
+.qq_onService_panel .sidebar2_state{text-align: center;}
+.qq_onService_panel .sidebar2_state a{display: inline-block; width: 32px; height:32px;}
+/*.alt_c{display: none;}*/
+
+/* 联系我们 */
+.qq_onService_panel .lxwm_tel{ width: 178px; position: absolute; right:-178px; top:0; opacity:0; filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity: 0; }
+.qq_onService_panel .lxwm_c .lxwm_tit{padding:0 20px; font-weight: normal; height:50px; line-height: 50px; text-align: left; font-size: 18px; border-bottom-width: 1px; border-bottom-style: solid;}
+.qq_onService_panel .lxwm_c .lxwm_list{padding:20px 20px 1px;}
+.qq_onService_panel .lxwm_c .lxwm_list li{background:url('../images/tel_border.png') no-repeat; margin-bottom: 20px; width:139px; height:32px; line-height: 32px; font-size: 14px;}
+
+/* 联系方式 */
+.qq_onService_panel .lxfs_qq{width:200px; overflow:hidden; position: absolute; right:-200px; top:-50px; opacity:0; filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity: 0;}
+.qq_onService_panel .lxfs_c{ width:217px; overflow:hidden;/* overflow-y:auto; overflow-x:hidden;max-height:236px;*/}
+.qq_onService_panel .lxfs_list{padding:20px 15px 0 0; min-height:107px;}
+.qq_onService_panel .lxfs_list li{margin-bottom: 20px;}
+.qq_onService_panel .lxfs_list li em{display:block; float: left; text-align: right; width:77px; overflow: hidden; font-size: 12px; height:32px; line-height: 32px;}
+.qq_onService_panel .lxfs_list li a{width: 102px; height:32px; line-height: 32px; text-align: center;}
+
+/* 微信扫码 */
+.qq_onService_panel .wx_scan{width:200px; position: absolute; right:-200px; top:-80px; opacity:0; filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity: 0;}
+.qq_onService_panel .wx_scan_c{text-align: center; padding-top:15px;}
+.qq_onService_panel .wx_scan_c .pic{margin-bottom: 5px; display: block; height: auto; padding-bottom: 10px;}
+.qq_onService_panel .wx_scan_c p{padding-bottom: 10px;}
+
+/* 说明文字 */
+.qq_onService_panel .explain_text{width:106px; position: absolute; right:-106px; top:-2px; opacity:0; filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity: 0;}
+.qq_onService_panel .explain_c a{font-size: 16px; padding:5px 0;}
+
+/* 联系我们 */
+.qq_onService_panel .record_tel{ width: 240px; position: absolute; right:-178px; top:-250px; opacity:0; filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity: 0; }
+.qq_onService_panel .record_c .record_tit{padding:0 20px; font-weight: normal; height:50px; line-height: 50px; text-align: left; font-size: 18px; border-bottom-width: 1px; border-bottom-style: solid;}
+.qq_onService_panel .record_c .record_info{height:30px; line-height: 30px; padding:0 10px; margin-bottom: 10px;}
+.qq_onService_panel .record_c .record_info a{float: right; background:url('../images/del_list.png') no-repeat left center; padding-left: 18px;}
+.qq_onService_panel .record_c .record_info em{float: left;}
+.qq_onService_panel .record_c .record_scroll{max-height: 300px; overflow-y:auto;}
+.qq_onService_panel .record_c .record_list{padding:10px 10px 5px;}
+.qq_onService_panel .record_c .record_list li{margin-bottom: 10px; font-size: 14px; position: relative; padding:0 0 5px 60px;}
+.qq_onService_panel .record_c .record_list li .pic{display: inline-block; position: absolute; left:0; width:50px; height:50px; line-height: 46px;}
+.qq_onService_panel .record_c .record_list li .pic img{max-width: 100%; max-height: 100%; vertical-align: middle;}
+.qq_onService_panel .record_c .record_list li .record_list_info{text-align: left;}
+.qq_onService_panel .record_c .record_list li .record_list_info h2{font-size: 14px; font-weight: normal; max-height: 40px; line-height: 20px; margin-bottom: 5px;}
+.qq_onService_panel .record_c .record_list li .record_list_info p{margin-bottom: 5px;}
+.qq_onService_panel .record_c .record_list li .record_list_info p a{display: inline-block; font-size: 12px; height:25px; line-height: 25px; text-align: center; width:80px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px;}
+.qq_onService_panel .record_c .record_btn{padding:0 10px;}
+.qq_onService_panel .record_c .record_btn a{display: block; font-size: 14px; text-align: center; height:30px; line-height: 30px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px;}

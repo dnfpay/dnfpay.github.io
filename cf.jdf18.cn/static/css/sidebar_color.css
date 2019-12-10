@@ -1,0 +1,10 @@
+.qq_onService_panel .sidebar2_listT,.qq_onService_panel .sidebar2_listB{background-image:url('../images/botder_img.png');}
+.qq_onService_panel .list_c,.qq_onService_panel .alt_bg,.sidebar2_listC{background:#C1BFC0;}
+.qq_onService_panel .sidebar2_state a{background-image: url('../images/hide_btn.png')}
+.qq_onService_panel .sidebar2_state a.cur{background-image: url('../images/show_btn.png')}
+.qq_onService_panel .lxwm_c .lxwm_tit{color:#eee; border-bottom-color: #CFCDCE;}
+.qq_onService_panel .lxwm_c .lxwm_list li{color:#fff;}
+.qq_onService_panel .lxfs_list li{color:#fff;}
+.qq_onService_panel .lxfs_list li a{background:url('../images/qq_btn.png');}
+.qq_onService_panel .explain_c a{color:#fff;}
+.qq_onService_panel .wx_scan_c p{color:#fff;}

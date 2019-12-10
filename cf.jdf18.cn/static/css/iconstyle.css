@@ -1,0 +1,34 @@
+@charset "gb2312";
+/* CSS Document */
+/*	Date:2012-10-15;
+	author:qwguo;
+	purpose:关于模版中的小图标的样式;
+	color:;
+*/
+
+#pro_preview_Lbut,#pro_preview_Rbut{background-image:url(../images/pro_preview_but.png); background-repeat:no-repeat;}
+#pro_preview_Lbut{background-position:0 0;}
+  #pro_preview_Lbut:hover{background-position:-34px 0;}
+#pro_preview_Rbut{background-position:-17px 0;}
+  #pro_preview_Rbut:hover{background-position:-51px 0;}
+#inner_nowBuy{background:url(../images/inner_nowbuy.png) no-repeat; width:127px; height:36px; border:0px;}
+#inner_addCat{background:url(../images/inner_addcat.png) no-repeat; width:127px; height:36px; border:0px;}
+
+.zpFocusNav span{background:url(../images/zaoping_pic_nav.png) no-repeat; margin-right:5px; cursor:pointer;}
+  .zpFocusNav span.cur{background-position:0 -15px;}
+  #zpaddBut{display:inline-block; width:214px; height:60px; background:url(../images/zp_but.png) no-repeat;}
+  #E_zpaddBut{display:inline-block; width:214px; height:60px; background:url(../images/ezp_but.png) no-repeat;}
+	#zpaddBut:hover,#E_zpaddBut:hover{background-position:0 -61px;}
+
+/*--商品选择属性颜色--*/
+.Bersion_List a{color:#666!important;}
+.Bersion_List a:hover,.Bersion_List a.cur{border-color:#CC0000; color:#CC0000!important;}
+	 .Bersion_List a.cur em{border-color:transparent #CC0000 #CC0000 transparent;}
+.SummaryList_but{display:inline-block;background:url(../images/summarylistbut.png) no-repeat; width:132px; height:42px; text-align:center; font:bold 18px/42px "微软雅黑"; color:#fff!important;}
+.SummaryList_but:hover{color:#fff!important; background-position:0 -42px;}
+.zdMainLisTIcon{ width:16px; height:16px; background:url(../images/zdmainlist_icon.png); display:none;}
+.zdSidebarTIcon{width:16px; height:16px;background:url(../images/zdsidebart_icon.png);display:none;}
+.zdStarTIcon{width:24px; height:24px; background:url(../images/zdstart_icon.png);display:none;}
+.MessageBut{display:inline-block; margin-right:10px;height:36px;  font:100 14px/36px "微软雅黑";  text-align:center; background:url(../images/message_but.png) no-repeat; color:#fff!important; cursor:pointer;background-size:100% 72px;}
+.MessageBut:hover{background-position:0px -100%; color:#fff!important;}
+.MessageBut.Mdesabled{background:url(../images/message_desabled_but.png); color:#999!important; cursor: no-drop;}

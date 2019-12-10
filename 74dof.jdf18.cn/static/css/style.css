@@ -1,0 +1,46 @@
+html, body, div, ul, li, h1, h2, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {margin: 0;padding: 0;list-style: none;}
+*:focus{outline:none;}
+button{padding:0; margin:0; border:0 none; }
+html, body {min-height: 100%;}
+body {font-family: "Microsoft YaHei", "å¾®è½¯é›…é»‘", "Arial", sans-serif;color:#333; background:#0e0d13;}
+h1, h2,  h5, h6{font-weight:normal;}
+h3,h4{font-size:14px;}
+ul,ol {list-style: none;}
+img {border: none;vertical-align: middle; display: block; }
+a{text-decoration: none;color: #FF0000;}
+a:hover{text-decoration:underline;transition:color 200ms linear 0s,background-color 200ms linear 0s,border-color 200ms linear 0s;}	/*鼠标悬停时*/
+a:active{}	/*点击与释放时*/
+a:visited{}
+table {border-collapse: collapse;table-layout: fixed;}
+input, textarea {outline: none;border: none; padding:0; margin:0; font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "å¾®è½¯é›…é»‘", Arial, sans-serif;}
+textarea {resize: none;overflow: auto;}
+button{font-family: "Microsoft YaHei", "å¾®è½¯é›…é»‘", "Arial", sans-serif;}
+
+.duanyou{font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Microsoft YaHei', sans-serif;background:url(../image/ct.jpg) repeat center 1043px;min-width: 100%;}
+.banner_01{width:100%; height:833px; background:url(../image/rp1.png) no-repeat center top; }
+.banner_btn{width:264px; height:64px; margin:0 auto; background:url(../image/banner_button.png) no-repeat center top; font-size:18px; color:#191970; font-weight:bold; line-height:60px; text-align:center;  }
+.banner_btn:hover{color:#c03223;}
+.banner_txt{font-size:20px; color:#f0e5d2; text-align:center; padding-top:10px;}
+.jssy{width:100%; background:url(../image/mh_bg_03.jpg) no-repeat center top;padding-top:30px;}
+
+.foot{width:100%; height:60px; background:#000; line-height:60px; text-align:center; color:#999; font-size:12px; }
+	#quicklink1{width:1027px;height:76px;position:absolute;top:628px;left:50%;margin-left:-513px;z-index:1500;}
+	/*快捷链接*/
+	#quicklink{width:1027px;height:76px;position:absolute;top:780px;left:50%;margin-left:-513px;z-index:1500;}
+	#quicklink a{margin:0 10px;float:left;width:318px;height:72px;line-height:72px;text-align:center;position:relative;overflow:hidden;color:#fff;border-radius:40px;display:inline;}
+	#quicklink a:hover{background-position:left bottom!important;text-decoration:none;}
+	#quicklink a strong{font-size:24px;font-weight:normal;background:url("../image/line2.png"/*tpa=https://www.173106.com/images/line2.png*/) no-repeat center center;text-shadow:0 3px 4px rgba(0,0,0,0.4);display:block;}
+	#quicklink a span{margin:-300px 0 0 -820px;width:732px;height:608px;position:absolute;top:0;left:0;background:url("../image/guan.png"/*tpa=https://www.173106.com/images/guan.png*/) no-repeat left top;}
+	#quicklink .btn_red{background:url("../image/btn_red.png"/*tpa=https://www.173106.com/images/btn_red.png*/) no-repeat left top ;}
+	#quicklink .btn_blue{background:url("../image/btn_blue.png"/*tpa=https://www.173106.com/images/btn_blue.png*/) no-repeat left top ;}
+	#quicklink .btn_yellow{background:url("../image/btn_yellow.png"/*tpa=https://www.173106.com/images/btn_yellow.png*/) no-repeat left top ;}
+
+.app01{width:100%; height:70px;}
+.app02{width:100%; height:50px;}
+	/*简介*/
+	#Introduction{width:70%;height:800px;position:relative;color:#fff;margin:0px auto 100px auto;background-color:#010000;border:2px solid #36648B;border-radius:30px;}
+	#Introduction:hover{border-color:#1C86EE;}
+	#Introduction:hover .PartTitle{ background:url("../image/titlebg2.png"/*tpa=https://www.173106.com/images/titlebg2.png*/) no-repeat center top;}
+
+	/*栏目标题*/
+.PartTitle{height:54px;text-align:center;margin-bottom:26px;padding-top:15px;background:url("../image/titlebg.png"/*tpa=https://www.173106.com/images/titlebg.png*/) no-repeat center top;}
