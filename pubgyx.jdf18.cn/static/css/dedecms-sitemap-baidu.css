@@ -1,0 +1,213 @@
+* {
+
+	margin:0;
+
+	padding:0;
+
+}
+
+body {
+
+	font-family: "Microsoft YaHei", SimSun, "Segoe UI", Verdana, Arial, Sans-Serif;
+
+	background-color:#fff;
+
+	font-size:12px;
+
+	color:#222;
+
+	padding:10px;
+
+}
+
+a:link,a:visited,a:active {
+
+	color:#222;
+
+	text-decoration:none;
+
+}
+
+a:hover {
+
+	color:#2a85e8;
+
+	text-decoration:underline;
+
+}
+
+h1 {
+
+	font-size:24px;
+
+	line-height:42px;
+
+	margin-left:12px;
+
+	margin-bottom:12px;
+
+	font-weight:normal;
+
+}
+
+#header {
+
+	width:96%;
+
+	height:auto;
+
+	padding:0 1%;
+
+	line-height:28px;
+
+	word-spacing:10px;
+
+	border-top:3px solid #285da7;
+
+}
+
+#sitemap {
+
+	width:98%;
+
+	height:auto;
+
+	padding:5px 0;
+
+	margin-bottom:10px;
+
+	border-top:3px solid #285da7;
+
+	border-bottom:3px solid #285da7;
+
+}
+
+ul.sp2 {
+
+	display:block;
+
+	width:100%;
+
+	height:auto;
+
+	margin-bottom:5px;
+
+	overflow:hidden;
+
+	list-style:none;
+
+}
+
+*html ul.sp2 {
+
+	background-image:url(../image/olbg.jpg);
+
+	background-position:0 5px;
+
+}
+
+ul.sp2 li {
+
+	width:98%;
+
+	padding:0 1%;
+
+	height:28px;
+
+	overflow:hidden;
+
+	line-height:28px;
+
+	list-style:none;
+
+	
+
+}
+
+ul.sp2 li:nth-child(2n) {
+
+	background-color:#fafafa;
+
+}
+
+ul.sp2 li:hover,
+
+ul.sp2 li:hover a {
+
+	color:#fff;
+
+	background-color:#285da7;
+
+}
+
+ul.sp2 li.listtitle {
+
+	background-color:#285da7;
+
+	margin-bottom:5px;
+
+}
+
+ul.sp2 b {
+
+	color:#fff;
+
+}
+
+ul.sp2 li span.url {
+
+	width:65%;
+
+	float:left;
+
+	display:block;
+
+}
+
+ul.sp2 li span.time {
+
+	width:30%;
+
+	float:right;
+
+	display:block;
+
+}
+
+#pagelist {
+
+	width:98%;
+
+	height:28px;
+
+	line-height:28px;
+
+	word-spacing:5px;
+
+	color:#fff;
+
+	padding:0 1%;
+
+	background-color:#285da7;
+
+}
+
+#pagelist a {
+
+	color:#fff;
+
+}
+
+#footer {
+
+	color:#999;
+
+	padding:10px 1%;
+
+}
+
+#footer a {
+
+	color:#999;
+
+}

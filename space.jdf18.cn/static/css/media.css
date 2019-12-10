@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1680px){
+	
+
+}
+@media only screen and (max-width: 1600px){
+	
+
+}
+@media only screen and (max-width: 1440px){
+	
+}
+@media only screen and (max-width: 1366px){
+	
+
+}
+@media only screen and (max-width: 1280px){
+	
+}
+@media only screen and (max-width: 1152px){
+	
+}
+@media only screen and (max-width: 1024px){
+	
+}
+@media only screen and (max-width: 768px){
+	
+}
+@media only screen and (max-width: 640px){
+	
+}
+@media only screen and (max-width: 414px){
+    .banner{display: none;}
+    .footer{display: none;}
+    .quz{width: 100%;}
+    .lj{width: 100%;}
+    .box{width: 100%;}
+    .title{margin-top: -32%; margin-left: 5%;}
+    .headr *{font-size: 20px;}
+    .headr h1 a{font-size: 20px;}
+    .myZuMaEditor{margin-left: -28px;}
+    #shiu{margin-left: -20px;}
+    #menu li{width: 100%; float: none;}
+    #menu li:nth-of-type(2), #menu li:nth-of-type(3){padding-left: 0;}
+    #menu li:nth-of-type(2), #menu li:nth-of-type(3) img{margin-left: -50px;}
+    .hang{margin-bottom: 20px;}
+    .lj h2 a{font-size: 12px;}
+    .lj h2 {position: relative;top: 5px;left: 48%;}
+    #shiya{position: relative; top: 10px;}
+    #queshi{position: relative; left: -9%;}
+    .heikk{position: fixed; width: 100%;height: 338px; background: black; top: 72%;}
+    .zm-page{padding-bottom: 11px;}
+}
+@media only screen and (max-width: 375px){
+
+}
+@media only screen and (max-width: 325px){
+}

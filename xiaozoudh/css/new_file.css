@@ -1,0 +1,37 @@
+.codrops-demos {
+	font-size: 0.8em;
+	text-align:center;
+	position:absolute;
+	z-index:99;
+	width:100%;
+	color:#F00;
+	margin-top: 200px;
+}
+*, *:after, *:before {
+
+box-sizing: border-box;
+}
+img{
+	width: 150px;
+	border-radius: 200px;
+	box-shadow: 0px 0px 40px #f00;
+	border: 3px solid #e96f92;
+	-moz-transition: -moz-transform 0.4s ease-out;
+}
+.lin{
+	font-size: 50px;
+	font-weight: bold;
+	color : #009688; 
+	font-family : 宋体,sans-serif;
+	letter-spacing : 1pt;
+	text-align:center;	
+}
+.xin{
+	font-size: 20px;
+	font-weight: bold;
+	color : #009688; 
+	font-family : 宋体,sans-serif; 
+	letter-spacing : 1pt;
+	text-align:center;
+	}
+#wrap{margin:20px auto;text-align:center;}#wrap br{display:none;}.btn-slide,.btn-slide2{position:relative;display:inline-block;height:50px;width:200px;line-height:50px;padding:0;border-radius:50px;background: #fdfdfd40;border: 2px solid #009688a6;margin:10px;transition:.5s;}.btn-slide2{border:2px solid #efa666;}.btn-slide:hover{background-color: #fbfbfb;}.btn-slide2:hover{background-color:#efa666;}.btn-slide:hover span.circle,.btn-slide2:hover span.circle2{right:100%;margin-right:-45px;background-color: #009688;color: #fbfbfb82;}.btn-slide2:hover span.circle2{color:#efa666;}.btn-slide:hover span.title,.btn-slide2:hover span.title2{right:40px;opacity:0;}.btn-slide:hover span.title-hover,.btn-slide2:hover span.title-hover2{opacity:1;right:40px;}.btn-slide span.circle,.btn-slide2 span.circle2{display:block;background-color: #009688;color: #009688;position:absolute;float:right;margin: 3px;line-height:42px;height:40px;width:40px;top:0;right:0;transition:.5s;border-radius:50%;}.btn-slide2 span.circle2{background-color:#efa666;}.btn-slide span.title,.btn-slide span.title-hover,.btn-slide2 span.title2,.btn-slide2 span.title-hover2{position:absolute;right:90px;text-align:center;margin:0 auto;font-size: 15px;font-weight:bold;color: #009688;transition:.5s;}.btn-slide2 span.title2,.btn-slide2 span.title-hover2{color:#efa666;right:80px;}.btn-slide span.title-hover,.btn-slide2 span.title-hover2{right:80px;opacity:0;}.btn-slide span.title-hover,.btn-slide2 span.title-hover2{color: #009688;}

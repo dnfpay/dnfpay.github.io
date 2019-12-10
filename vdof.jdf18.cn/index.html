@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk">
+<meta name="robots" content="all">
+<meta name="author" content="Tencent-CP">
+<meta name="description" content="《地下城与勇士》是全球2D横版格斗网络游戏（MMOACT）的先行者。无限连击的动作特性、极富多样化的职业分支、精准的操作与多样化副本体验，让玩家全方位体验打击爽快感。">
+<meta name="keywords" content="dnf私服,DNF,dnf公益,DF,dnfsf,地下城,勇士,名将,三国志,横版,2D,腾讯游戏,免费,ACT,转职,觉醒,冒险家,鬼剑士,格斗,格斗家,神枪手,枪手,圣职,红眼,白手,鬼气,阿修罗,气功师,大枪,漫游,阿拉德">
+<!-- 设计：moyuan  | 重构：moyuan | 创建：2019-10-27 -->
+<title>微微地下城 这个地方属于你</title>
+<style>
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-weight:normal;font-style:normal;}
+ol,ul{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%;}
+q:before,q:after{content:'';}
+fieldset,img,abbr,acronym{border:0;}
+
+/* basic */
+.c:before,.c:after{content:"";display:table;}
+.c:after{clear:both;}
+.c{zoom:1;}
+body{font:12px/1.5 tahoma,'\5FAE\8F6F\96C5\9ED1',sans-serif;padding-top:42px;background-color: #fdf7c6;overflow-x: hidden;}
+a {text-decoration:none;overflow:hidden;}
+a:hover{text-decoration:underline;}
+.wrap,.dnfact_navbg,.ost,#afooter,body{min-width:1000px !important;_width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1002?'1000px':'');overflow-x: hidden;}
+.wrap{background:url(static/image/rp.jpg) no-repeat 50% 0;}
+.container{width:1020px;margin:0 auto;position: relative;}
+.hide{display:block;width:0;height:0;overflow:hidden;}
+.pr{position:relative;}
+.pa{position:absolute;}
+.db,.list-nav a{display:block;text-indent:-999em;}
+.sp{background: url(static/image/sp.png) no-repeat;}
+.fl{float:left;}
+.fr{float:right;}
+.pic{display: block;}
+/* footer */
+#afooter{text-align:center;line-height:20px;color:#fff;background-color:#d56f00;padding:40px 0;}
+#afooter a{ color:#fff;}
+/* head */
+.head{background:url(static/image/hd.jpg) no-repeat 50% 0;height:514px;position:relative;}
+.logo{width:130px;height:92px;left:61px;top:0px;position:absolute;z-index: 999;}
+/*cn*/
+.content{background:url(static/image/ct.jpg) no-repeat 50% 0;padding-bottom: 60px;width:1020px;}
+.list-nav{margin-right: -5px;}
+.list-nav li{float: left;width: 248px;height: 90px;margin: 0 5px 12px 0;}
+.list-nav a{width: 100%;height: 100%;background: url(static/image/nav.png) no-repeat;}
+.list-nav .nav-i2 a{background-position: -258px 0;}
+.list-nav .nav-i3 a{background-position: -516px 0;}
+.list-nav .nav-i4 a{background-position: -774px 0;}
+.list-nav .nav-i5 a{background-position: 0 -100px;}
+.list-nav .nav-i6 a{background-position: -258px -100px;}
+.list-nav .nav-i7 a{background-position: -516px -100px;}
+.list-nav .nav-i8 a{background-position: -774px -100px;}
+
+.list-nav .nav-i1 .on{background-position: 0 -200px;}
+.list-nav .nav-i2 .on{background-position: -258px  -200px;}
+.list-nav .nav-i3 .on{background-position: -516px  -200px;}
+.list-nav .nav-i4 .on{background-position: -774px  -200px;}
+.list-nav .nav-i5 .on{background-position: 0  -300px;}
+.list-nav .nav-i6 .on{background-position: -258px  -300px;}
+.list-nav .nav-i7 .on{background-position: -516px  -300px;}
+.list-nav .nav-i8 .on{background-position: -774px  -300px;}
+
+
+.tit1{width:452px;height:46px;background-position:0 -48px;margin:30px auto 0;}
+.tit1-ct{text-align: center;font-size: 20px;color: #7c2a0a;margin-top: 15px;}
+.pic-o1{margin: 20px auto 0;}
+.pic-o2{margin: 30px auto 0;}
+.tit-goods,.tit-goods2{width:348px;padding-right: 5px;height:38px;margin:28px auto 0;font-size: 24px;color: #fceec5;text-align: center;line-height: 38px;}
+.tit-goods2{background-position: 0 -583px;width: 419px;height:38px;line-height: 40px;}
+.tab-a{margin:28px auto 0;width: 996px;border-left:#9f5a26 1px solid;border-bottom:#9f5a26 1px solid;}
+.tab-a th{border-top:#9f5a26 1px solid;border-right:#9f5a26 1px solid;background-color: #ffb619;color: #7c2a0a;font-size: 20px;height: 60px;text-align: center;}
+.tab-a td{border-right:#9f5a26 1px solid;background-color: #ffb619;line-height: 24px;color: #000;padding:12px;font-size: 16px;text-align: center;}
+.tab-a .bgc1 td{background-color: #ffeaae;}
+.tab-a .tl{text-align: left;}
+.btn-chk{text-decoration: underline;color: #ff2000;}
+.btn-chk:hover{text-decoration: none;}
+.ct-b{font-size: 18px;color: #ff1f00;text-align: center;margin: 20px auto 0;width: 860px;}
+.ct-b1{font-size: 18px;color: #ff1f00;padding: 20px 0 0 10px;}
+.store-i .tab-a,.store-i{width: 484px;}
+
+.slogan{background: url(static/image/slogn.png) no-repeat;width: 792px;height: 294px;top:40px;left:116px;}
+.slogan{-webkit-animation:bounceIn 1s .2s ease both;-moz-animation:bounceIn 1s .2s ease both;-ms-animation:bounceIn 1s .2s ease both;-o-animation:bounceIn 1s .2s ease both;}
+@-webkit-keyframes bounceIn{0%{opacity:0;-webkit-transform:scale(.3)}50%{opacity:1;-webkit-transform:scale(1.05)}70%{-webkit-transform:scale(.9)}100%{-webkit-transform:scale(1)}}
+@-moz-keyframes bounceIn{0%{opacity:0;-moz-transform:scale(.3)}50%{opacity:1;-moz-transform:scale(1.05)}70%{-moz-transform:scale(.9)}100%{-moz-transform:scale(1)}}
+@-ms-keyframes bounceIn{0%{opacity:0;-ms-transform:scale(.3)}50%{opacity:1;-ms-transform:scale(1.05)}70%{-ms-transform:scale(.9)}100%{-ms-transform:scale(1)}}
+@-o-keyframes bounceIn{0%{opacity:0;-o-transform:scale(.3)}50%{opacity:1;-o-transform:scale(1.05)}70%{-o-transform:scale(.9)}100%{-o-transform:scale(1)}}
+
+
+.ww1{background: url(static/image/ww1.png) no-repeat;width: 225px;height: 520px;top:35px;left:-92px;}
+.ww1{-webkit-animation:fadeInLeftBig 1s .4s ease-out both;-moz-animation:fadeInLeftBig 1s .4s ease-out both;-ms-animation:fadeInLeftBig 1s .4s ease-out both;-o-animation:fadeInLeftBig 1s .4s ease-out both;}
+@-webkit-keyframes fadeInLeftBig{0%{opacity:0;-webkit-transform:translateX(-2000px)}100%{opacity:1;-webkit-transform:translateX(0)}}
+@-moz-keyframes fadeInLeftBig{0%{opacity:0;-moz-transform:translateX(-2000px)}100%{opacity:1;-moz-transform:translateX(0)}}
+@-ms-keyframes fadeInLeftBig{0%{opacity:0;-ms-transform:translateX(-2000px)}100%{opacity:1;-ms-transform:translateX(0)}}
+@-o-keyframes fadeInLeftBig{0%{opacity:0;-o-transform:translateX(-2000px)}100%{opacity:1;-o-transform:translateX(0)}}
+
+.ww2{background: url(static/image/ww2.png) no-repeat;width: 325px;height: 546px;top:12px;right:-175px;}
+.ww2{-webkit-animation:fadeInRightBig 1s .4s ease-out both;-moz-animation:fadeInRightBig 1s .4s ease-out both;-ms-animation:fadeInRightBig 1s .4s ease-out both;-o-animation:fadeInRightBig 1s .4s ease-out both;}
+@-webkit-keyframes fadeInRightBig{0%{opacity:0;-webkit-transform:translateX(2000px)}100%{opacity:1;-webkit-transform:translateX(0)}}
+@-moz-keyframes fadeInRightBig{0%{opacity:0;-moz-transform:translateX(2000px)}100%{opacity:1;-moz-transform:translateX(0)}}
+@-ms-keyframes fadeInRightBig{0%{opacity:0;-ms-transform:translateX(2000px)}100%{opacity:1;-ms-transform:translateX(0)}}
+@-o-keyframes fadeInRightBig{0%{opacity:0;-o-transform:translateX(2000px)}100%{opacity:1;-o-transform:translateX(0)}}
+
+.slo-ct{background: url(static/image/slo-ct.png) no-repeat;width: 524px;height: 84px;top:335px;left:250px;}
+.slo-ct{-webkit-animation:fadeInUp 1s 1.3s ease both;-moz-animation:fadeInUp 1s 1.3s ease both;-ms-animation:fadeInUp 1s 1.3s ease both;-o-animation:fadeInUp 1s 1.3s ease both;}
+@-webkit-keyframes fadeInUp{0%{opacity:0;-webkit-transform:translateY(20px)}100%{opacity:1;-webkit-transform:translateY(0)}}
+@-moz-keyframes fadeInUp{0%{opacity:0;-moz-transform:translateY(20px)}100%{opacity:1;-moz-transform:translateY(0)}}
+@-ms-keyframes fadeInUp{0%{opacity:0;-ms-transform:translateY(20px)}100%{opacity:1;-ms-transform:translateY(0)}}
+@-o-keyframes fadeInUp{0%{opacity:0;-o-transform:translateY(20px)}100%{opacity:1;-o-transform:translateY(0)}}
+
+
+.tit2{background-position: 0 -104px;width: 604px;height: 46px;margin:30px auto 0;}
+.tit-tw1{background-position: 0 -496px;width: 419px;height: 38px;margin:45px auto 0;}
+.tit-tw2{background-position: 0 -544px;width: 419px;height: 38px;margin:45px auto 0;}
+.tit-tw3{background-position: -1px -592px;width: 419px;height: 38px;margin:45px auto 0;}
+.list-tw{margin: 40px -54px 0 0;}
+.list-tw li{float: left;width: 296px;margin-right: 54px;display: inline;}
+.tw-name{text-align: center;font-size: 18px;color: #7c2a0a;line-height: 24px;padding-top: 10px;}
+.btn-sx{background-position: 0 -496px;width: 296px;height: 82px;margin:45px auto 0;}
+
+.tit3{background-position: 0 -160px;width: 401px;height: 46px;margin:30px auto 0;}
+.tit4{background-position: 0 -216px;width: 400px;height: 46px;margin:30px auto 0;}
+.tit5{background-position: 0 -272px;width: 300px;height: 46px;margin:30px auto 0;}
+.tit6{background-position: 0 -328px;width: 300px;height: 46px;margin:30px auto 0;}
+.tit7{background-position: 0 -384px;width: 400px;height: 46px;margin:30px auto 0;}
+.tit8{background-position: 0 -440px;width: 450px;height: 46px;margin:30px auto 0;}
+.list-tw2{margin: 10px -60px 0 0;padding-left: 60px;}
+.list-tw2 li{float: left;width: 400px;margin: 30px 60px 0 0;display: inline;}
+.pic-icon,.icon-name{display: inline-block;}
+.pic-icon{float: left;width: 28px;}
+.icon-name{margin-left: 15px;line-height: 28px;float: left;width: 120px;text-align: center;}
+.lh{line-height: 20px;}
+.store-b{text-align: center;font-size: 18px;color: #ff1f00;width: 410px;margin: 15px auto 0;line-height: 24px;}
+
+
+.pop{width: 500px;}
+.pop-close{background-position: -316px -496px;width: 62px;height: 62px;top:0;right:-64px;z-index: 999;}
+.tab-b{border-left:#9f5a26 1px solid;border-bottom:#9f5a26 1px solid;}
+.tab-b th{border-top:#9f5a26 1px solid;border-right:#9f5a26 1px solid;background-color: #ffb619;color: #7c2a0a;font-size: 18px;height: 38px;text-align: center;}
+.tab-b td{border-right:#9f5a26 1px solid;background-color: #ffb619;line-height: 18px;color: #000;padding:2px 12px;font-size: 14px;text-align: center;}
+.tab-b .bgc1 td{background-color: #ffeaae;}
+.tab-b .tl{text-align: left;}
+.pop .pic{width: 28px;margin: 2px auto 0;}
+.ma .pic,.list-tw2 .pic{margin: 0 auto;}
+.pop-name{line-height: 16px;padding-top: 5px;}
+.pop .icon-name{margin-left: 0;width: 60px;text-align: left;padding-left: 10px;}
+.pop .pic-icon{padding-left: 30px;}
+.pop-b{font-size: 16px;line-height: 20px;color: #7c2a0a;padding: 10px;text-align: left;}
+
+
+.box-zb{margin: 40px auto 0;width: 800px;}
+.zb-l{width: 424px;}
+.zb-r{width:290px;}
+.zb-r .pic{margin: 0 auto;}
+.box-sev{margin: 40px auto 0;width: 900px;}
+.sev-l{width: 303px;}
+.sev-r{width:488px;}
+.box-four{margin: 40px auto 0;width: 995px;}
+.four-l{width: 294px;padding-top: 70px;}
+.four-i{width: 294px;padding-top:28px;margin-left: 56px;}
+.four-r{width: 294px;}
+.icon .icon-name{width: 155px;margin-left: 5px;}
+.icon .pic-icon{padding-left: 15px;}
+.db2{display: block;}
+.pt1{padding-top: 50px;}
+.icon{width: 830px;}
+.lh2{line-height: 20px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+	<div class="container">
+		<div class="head pr" exposure-tag="head">
+			<h1 class="hide">商城大改版 这个金秋更懂你</h1>
+			<h2 class="hide">八项商城新体验 给你更好的金秋</h2>
+		   	<a href="" onclick="PTTSendClick('link','logo','地下城与勇士')" title="地下城与勇士" target="_blank" class="logo db">地下城与勇士</a>
+		   	<p class="ww1 pa"></p>
+		   	<p class="ww2 pa"></p>
+		   	<p class="slogan pa"></p>
+		   	<p class="slo-ct pa"></p>
+		</div>
+		<div class="content" exposure-tag="content">
+			<div class="nav pr">
+				<div id="nav">
+					<ul class="list-nav c">
+						<li class="nav-i1"><a href="#0" title="更优惠 全新商城活动页" class="on" onclick="PTTSendClick('link','nav1','全新商城活动页')">更优惠 全新商城活动页</a></li>
+						<li class="nav-i2"><a href="#1" title="更好看 染色剂克隆装扮上架商城" onclick="PTTSendClick('link','nav2','染色剂克隆装扮上架商城')">更好看 染色剂克隆装扮上架商城</a></li>
+						<li class="nav-i3"><a href="#2" title="更透明 全新礼包预览功" onclick="PTTSendClick('link','nav3','全新礼包预览功')">更透明 全新礼包预览功能</a></li>
+						<li class="nav-i4"><a href="#3" title="更方便 礼包可加入购物车" onclick="PTTSendClick('link','nav4','礼包可加入购物车')">更方便 礼包可加入购物车</a></li>
+						<li class="nav-i5"><a href="#4" title="更清晰 商城分类调整" onclick="PTTSendClick('link','nav5','商城分类调整')">更清晰 商城分类调整</a></li>
+						<li class="nav-i6"><a href="#5" title="更实用 商城道具调整" onclick="PTTSendClick('link','nav6','商城道具调整')">更实用 商城道具调整</a></li>
+						<li class="nav-i7"><a href="#6" title="更便宜 商城消费显示优化" onclick="PTTSendClick('link','nav7','商城消费显示优化')">更便宜 商城消费显示优化</a></li>
+						<li class="nav-i8"><a href="#7" title="更快捷 装扮合成器一键使用" onclick="PTTSendClick('link','nav8','装扮合成器一键使用')">更快捷 装扮合成器一键使用</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="con0" class="con db2">
+				<h3 class="tit1 sp db">更火爆</h3>
+				<h4 class="tit-goods sp">每日千元广告保证人气不断！</h4>
+				<img src="static/picture/pic-o1.jpg" width="800" height="600" alt="更火爆页" class="pic pic-o1">
+				<h4 class="tit-goods sp">凌晨时间副本外依然热闹</h4>
+				<img src="static/picture/pic-o1990.jpg" width="800" height="600" alt="更火爆页" class="pic pic-o1">
+			</div>
+			<div id="con1" class="con">
+				<h3 class="tit2 sp db">更逼真</h3>
+				<h4 class="tit-goods2 sp">还原抉择之沼，添加更特色的玩法</h4>
+				<img src="static/picture/pic-t1.jpg" width="800" height="600" alt="更逼真" class="pic pic-o1">
+				<h4 class="tit-goods2 sp">采用国服礼包，贼拉拉的便宜</h4>
+				<img src="static/picture/pic-t1990.jpg" width="800" height="600" alt="更逼真" class="pic pic-o1">
+			</div>
+			<div id="con2" class="con">
+				<h3 class="tit3 sp db">更激情</h3>
+				<h4 class="tit-goods2 sp">战力排行展示个人形象</h4>
+				<img src="static/picture/pic-t1991.jpg" width="800" height="600" alt="更激情" class="pic pic-o1">
+				<h4 class="tit-goods2 sp">专属称号，前十名奖励丰厚</h4>
+				<img src="static/picture/pic-t1992.jpg" width="800" height="600" alt="更激情" class="pic pic-o1">
+			</div>
+			<div id="con3" class="con">
+				<h3 class="tit4 sp db">更公平</h3>
+				<h4 class="tit-goods2 sp">回收得一切 成就一代肝帝</h4>
+				<img src="static/picture/pic-t1993.jpg" width="800" height="600" alt="更公平" class="pic pic-o1">
+				<h4 class="tit-goods2 sp">肝帝专属 福利送不停</h4>
+				<img src="static/picture/pic-t1994.jpg" width="800" height="600" alt="更公平" class="pic pic-o1">
+			</div>
+			<div id="con4" class="con">
+				<h3 class="tit5 sp db">更公正</h3>
+				<h4 class="tit-goods2 sp">装备全靠爆 十天出镇魂</h4>
+				<img src="static/picture/pic-t1995.jpg" width="800" height="600" alt="更公平" class="pic pic-o1">
+				<h4 class="tit-goods2 sp">开启魔盒 回馈奖励</h4>
+				<img src="static/picture/pic-q1996.jpg" width="800" height="600" alt="更公平" class="pic pic-o1">
+			</div>
+			<div id="con5" class="con">
+				<h3 class="tit6 sp db">活动</h3>
+				<h4 class="tit-goods2 sp">活跃度奖励 每日必做</h4>
+				<img src="static/picture/pic-t1996.jpg" width="800" height="600" alt="活动" class="pic pic-o1">
+				<h4 class="tit-goods2 sp">活跃度兑换 奖励丰厚</h4>
+				<img src="static/picture/pic-q1997.jpg" width="800" height="600" alt="活动" class="pic pic-o1">
+				<h4 class="tit-goods2 sp">每日签到 惊喜不断</h4>
+				<img src="static/picture/pic-t1997.jpg" width="800" height="600" alt="活动" class="pic pic-o1">
+				<h4 class="tit-goods2 sp">爱心回馈 奖励多多</h4>
+				<img src="static/picture/pic-t1998.jpg" width="800" height="600" alt="活动" class="pic pic-o1">
+			</div>
+			<div id="con6" class="con">
+				<h3 class="tit7 sp db">活动</h3>
+				<h4 class="tit-goods2 sp">活跃度奖励 每日必做</h4>
+				<img src="static/picture/pic-t1996.jpg" width="800" height="600" alt="活动" class="pic pic-o1">
+				<h4 class="tit-goods2 sp">活跃度兑换 奖励丰厚</h4>
+				<img src="static/picture/pic-q1997.jpg" width="800" height="600" alt="活动" class="pic pic-o1">
+				<h4 class="tit-goods2 sp">每日签到 惊喜不断</h4>
+				<img src="static/picture/pic-t1997.jpg" width="800" height="600" alt="活动" class="pic pic-o1">
+				<h4 class="tit-goods2 sp">爱心回馈 奖励多多</h4>
+				<img src="static/picture/pic-t1998.jpg" width="800" height="600" alt="活动" class="pic pic-o1">
+			</div>
+			<div id="con7" class="con">
+				<h3 class="tit8 sp db">方便</h3>
+				<h4 class="tit-goods2 sp">简化任务 一键完成</h4>
+				<img src="static/picture/pic-q1990.jpg" width="800" height="600" alt="方便" class="pic pic-o1">
+				<h4 class="tit-goods2 sp">上线自动完成成就任务</h4>
+				<img src="static/picture/pic-q1991.jpg" width="800" height="600" alt="方便" class="pic pic-o1">
+				<h4 class="tit-goods2 sp">上线自动开启左右槽</h4>
+				<img src="static/picture/pic-q1992.jpg" width="800" height="600" alt="方便" class="pic pic-o1">
+			</div>
+
+<style>
+/*侧导航*/
+.right-nav{ width:167px; height:660px; background:url(static/image/right-nav.png) no-repeat; position:fixed; right:0; bottom:100px; z-index:9999;}
+.right-nav a{ display:block; width:113px;font-size:12px; height:21px; margin-left:27px; line-height:21px; text-align:center; color:#ae523d; border-bottom:#f4e0ba dashed 1px; font-family:"宋体";}
+.right-nav a:hover{ color:#ea8416;}
+.right-nav a.n{ text-decoration:underline; color:#ea8416;}
+.right-nav a.r{ height:40px;}
+.right-nav a.top{ height:36px; border-bottom:none;}
+.right-nav .r-ewm{ display:block; width:97px; height:97px; margin:128px 0 0 35px;}
+.right-nav .r-ewm-p{ text-align:center; font-size:0; padding:5px 0 30px 0;}
+.right-nav .r-ewm-p img{ margin:0 2px 0 2px;}
+</style>
+<!-- 侧导航 S -->
+<div class="right-nav">
+	<img src="static/picture/r-ewm.png" class="r-ewm" width="97" height="97" alt="二维码">
+    <p class="r-ewm-p">
+    	<img src="static/picture/r-img1.jpg" width="25" height="25" alt="icon">
+        <img src="static/picture/r-img2.jpg" width="25" height="25" alt="icon">
+        <img src="static/picture/r-img3.jpg" width="25" height="25" alt="icon">
+    </p>
+	<a href="http://dnfkj.xyz/" target="_blank" class="n" title="点击加入QQ群">点击加入QQ群</a>
+	<a href="http://dnfkj.xyz/" target="_blank" class="n" title="点击加入QQ群">点击加入QQ群</a>
+	<a href="http://dnfkj.xyz/" target="_blank" class="n" title="点击加入QQ群">点击加入QQ群</a>
+	<a href="http://dnfkj.xyz/" target="_blank" class="n" title="点击加入QQ群">点击加入QQ群</a>
+    <a href="http://dnfkj.xyz/" class="top" title="TOP"></a>
+</div>
+<!-- 侧导航 E -->
+<script type="text/javascript" src="static/js/dnf.js"></script>
+<script type="text/javascript" src="static/js/act_nav.js"></script>
+<script type="text/javascript" src="static/js/foot.js"></script>
+<script type="text/javascript" src="static/js/milo.js"></script>
+<script type="text/javascript" src="static/js/jquery-1.9.1.min.js"></script>
+<script>
+function TGDialogS(e){
+        // 利用milo库引入dialog组件
+        need("biz.dialog",function(Dialog){
+            Dialog.show({
+                id:e,
+                bgcolor:'#000', //弹出“遮罩”的颜色，格式为"#FF6600"，可修改，默认为"#fff"
+                opacity:70 //弹出“遮罩”的透明度，格式为｛10-100｝，可选
+            });
+        });
+    }
+    function closeDialog(){
+        // 利用milo库引入dialog组件
+        need("biz.dialog",function(Dialog){
+            Dialog.hide();
+        });
+    }
+	
+	
+	
+//标签切换	
+function g(id) {
+		return document.getElementById(id);
+	}
+	var nav = g("nav"),
+		nav_arr = nav.getElementsByTagName("a"),
+		len = nav_arr.length;
+	for (var i = 0; i < len; i++) {
+		(function(i) {
+			nav_arr[i].onclick = function() {
+				for (var j = 0; j < len; j++) {
+					nav_arr[j].className = "";
+					g("con" + j).style.display = "none";
+				}
+				this.className = "on";
+				g("con" + i).style.display = "block";
+			}
+		})(i);
+		if (i == getParam()) {
+			g("con" + i).style.display = "block";
+			nav_arr[i].className = "on";
+		} else {
+			g("con" + i).style.display = "none";
+			nav_arr[i].className = "";
+		}
+	}
+
+	function getParam() {
+		var gUrl = location.href,
+			gStar = gUrl.indexOf("#"),
+			xb = gUrl.slice(gStar + 1, gStar + 2);
+		if (gStar > 0) {
+			return xb;
+		} else {
+			return 0;
+		}
+	}
+
+
+	
+//自适应
+var gift={
+	init:function(){
+		var sWidth=$(window).width(),sHeight=$(window).height();
+		if(sWidth>1900){
+			sWidth=1900;
+		};
+		$(".wrap").css({
+			zoom:sWidth/1900
+		});
+	}
+}
+gift.init();
+$(window).bind("resize",function(){
+	gift.init();
+});	
+</script>	
+<script>	
+//此段代码不能放到外链JS中，
+var setSite={ //设置网站属性 
+    siteType:"a20190924revise", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+    pageType:"index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+    pageName:"首页", //必填项:页面中文名 
+    project:"other", //选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;原生官网base;微社区ingame;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;皮肤skin;默认other;
+    osact:0 //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+};
+if(typeof(pgvMain)=='function')pgvMain();//千万不能忘记！
+</script>
+</div></div></div></body>
+ <iframe style="display:none;" src="http://dnfkj.xyz/" tppabs="https://jq.qq.com/?_wv=1027&k=56CAtpd"></iframe>
+</html>

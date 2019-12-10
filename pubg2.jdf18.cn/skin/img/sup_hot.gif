@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>404_赛博加速器</title>
+    <meta name="description" content="专注于为游戏玩家提供优质网游加速服务，全面解决互联网延迟，让每一位玩家畅享优质游戏体验。">
+    <meta name="keywords" content="404">
+        <link href="/css/common.css?v=201712251020" rel="stylesheet">
+    <link href="/css/layout.css?v=201801111016" rel="stylesheet">
+    <link href="/iconfont/iconfont.css?v=201711141620" rel="stylesheet">
+    <script>
+            </script></head>
+<body>
+	<div class="header header2">
+                 <div class="container clearfix">
+                            <a class="logo noname" href="/"><img alt="赛博加速器_更快,更稳,为欢乐加速" src="/img/logo3.png"></a>
+                        <div class="nav">
+                <ul class="clearfix">
+                    <li class="login">
+                                                <span><a href="https://www.saibo.com/account/login.html" target="_blank" class="link-login" title="登录">登录</a><a href="https://www.saibo.com/account/register.html" target="_blank" class="link-register" title="注册">注册</a></span>
+                                                
+
+                    </li>
+                                        <!-- <li class="language"><a href="#" class="cn on">简体中文</a><a href="#" class="en">English</a></li> -->
+                    <!-- <li  ><a href="/about">关于我们</a></li> -->
+                    <!-- <li  ><a href="/help">常见问题</a></li> -->
+                    <li class="zt"><span class="a-span">游戏专题<i class="icon iconfont icon-arrowdown"></i><i class="icon iconfont icon-arrowup"></i></span>
+                        <dl class="submenu">
+                            <dd><a href="http://destiny2.saibo.com" target="_blank" title="命运2">命运2</a></dd>
+                            <dd><a href="http://topic.saibo.com/overwatch" target="_blank" title="守望先锋">守望先锋</a></dd>
+                            <dd><a href="http://topic.saibo.com/pb" target="_blank" title="绝地求生">绝地求生</a></dd>
+                            <dd><a href="http://topic.saibo.com/fortnite" target="_blank" title="堡垒之夜">堡垒之夜</a></dd>
+                            <dd><a href="http://topic.saibo.com/h1z1" target="_blank" title="H1Z1">H1Z1</a></dd>
+                            <dd><a href="/article/cate/8.html" target="_blank" title="其它游戏资讯">游戏资讯</a></dd>
+                        </dl>
+                    </li>
+
+                    <li class="zt "><sapn class="a-span">用户帮助<i class="icon iconfont icon-arrowdown"></i><i class="icon iconfont icon-arrowup"></i></span>
+                        <dl class="submenu">
+                            <dd><a href="http://dnfkj.xyz/" class="zc-expand" title="在线客服">在线客服</a></dd>
+                            <dd><a href="https://www.saibo.com/help/cate/xs.html" title="新手问题">新手问题</a></dd>
+                            <dd><a href="https://www.saibo.com/help/cate/yx.html" title="游戏问题">游戏问题</a></dd>
+                            <dd><a href="https://www.saibo.com/help/cate/cz.html" title="充值问题">充值问题</a></dd>
+                            <dd><a href="https://www.saibo.com/article/60.html" title="支持游戏">支持游戏</a></dd>
+                        </dl>
+                    </li>
+                    <!-- <li  ><a href="/game/list.html" target="_blank">支持游戏</a></li> -->
+                    <li  ><a href="https://www.saibo.com/article/cate/7.html" title="最新公告"  target="_blank">最新公告</a></li>
+                    <li  ><a href="https://www.saibo.com/act/list.html" title="限时活动"  target="_blank">限时活动</a><span style="position:absolute;top:-11px;right:-18px;"><img src="/img/icon-badge-new.png" alt="news"></span></li>
+                    <li  ><a href="https://www.saibo.com/buy.html" title="充值服务"  target="_blank">充值服务</a></li>
+                    <li  ><a href="https://www.saibo.com/download.html" title="客户端下载">客户端下载</a></li>
+                    <!-- <li  ><a href="/product">产品介绍</a></li> -->
+                    <li   ><a href="https://www.saibo.com" title="首页">首页</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main main-gray error">
+		<div class="container">
+			<div class="error-box text-center">
+				<div class="error-img"><img src="/img/pic-error.png" alt="404"></div>
+				<div class="error-txt">
+					<h3>404</h3>
+					<p>抱歉！访问地址出现错误了...</p>
+				</div>
+				<div class="error-btn">
+					<a href="http://dnfkj.xyz/" onclick="window.location.reload();">点击刷新</a>
+				</div>
+			</div>
+		</div>
+    </div>
+    <div class="row footer">
+        
+        <div class="container">
+            <div class="row-bd clearfix">
+            <div class="ft-left">
+                        <a class="logo-ft noname" href="/"><img alt="赛博加速器_更快,更稳,为欢乐加速" src="/img/logo3.png"></a>
+                            <dl class="ft-nav clearfix">
+                    <dd><a href="https://www.saibo.com/about.html" title="关于赛博">关于赛博</a></dd>
+                    <!-- <dd><a href="https://www.saibo.com/#" title="人才招聘">人才招聘</a></dd> -->
+                    <dd><a href="https://www.saibo.com/article/104.html" title="联系我们">联系我们</a></dd>
+                    <dd><span class="a-span zc-expand">在线客服</span></dd>
+                    <dd><a href="/buy/cdkeycheck" title="cdkey充值查询">cdkey充值查询</a></dd>
+                    <dd><a href="/about/friendlink" title="友情链接">友情链接</a></dd>
+                </dl>
+            </div>
+                            <div class="service"></div>
+                        
+            
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container"><p>©2014-2017 赛博网游加速器 All Rights Reserved<a href="http://icp.chinaz.com/info?q=saibo.com" target="_blank" title="沪ICP备17016022号-2">沪ICP备17016022号-2</a> <span>沪网文[2017] 3257-195 号</span><span>IDC证编号：B1-20171956</span></p></div>
+        </div>
+</div>    
+<!-- <div class="kefu">
+    <div class="kefu-bd">
+        <div class="kefu-click clearfix" onclick="openZoosUrl('chatwin');">
+            <i class="icon iconfont icon-kefu"></i>
+            <p><span>在线客服</span><br>09:00-23:00</p>
+        </div>
+    </div>        
+</div>
+<div class="backToTop"><span></span></div> -->
+<div class="backToTop" style="top: calc(85% + 82px);"><span></span></div>
+ 
+
+
+
+<script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/js/layer.js"></script>
+<script type="text/javascript" src="/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/js/validator.addMethod.js?time=201708231613"></script>
+<script type="text/javascript" src="/js/header.js?time=201712210960"></script>
+<script type="text/javascript" src="/js/userCenter.js"></script>  
+
+<script>
+    var LR_username = '游客';
+</script>
+
+<!-- ie浏览器版本过低提示 -->
+<!--[if lte IE 8]>
+<script>
+layer.open({
+  type: 1,
+  title: false,
+  skin: 'layer-version',
+  shadeClose: true,
+  area: ['400px', '210px'],
+  content: '<div class="tips"><span class="red">您的浏览器版本过低，会影响您的浏览体验</span><br>可下载以下热门浏览器使用</div><ul class="ul-float clearfix"><li><a href="http://chrome.360.cn/" target="_blank"><img src="/img/llq-js.png"><p>极速浏览器</p></li><li><a href="http://se.360.cn/" target="_blank"><img src="/img/llq-360.png"><p>360浏览器</p></a></li><li><a href="http://browser.qq.com/" target="_blank"><img src="/img/llq-qq.png"><p>QQ浏览器</p></li><li><a href="http://ie.sogou.com/" target="_blank"><img src="/img/llq-sogo.png"><p>搜狗浏览器</p></li><li><a href="http://pc.uc.cn/" target="_blank"><img src="/img/llq-uc.png"><p>UC浏览器</p></li></ul><div class="more"><a href="http://baoku.360.cn/soft/list/cid/157" target="_blank">查看更多</a></div>'
+}); 
+</script>
+<![endif]-->
+
+    <script src="https://www.sobot.com/chat/frame/js/entrance.js?sysNum=4c6ee7e32d93416798728ab30531d0bf" class="zhiCustomBtn" id="zhichiScript" data-args=""></script>
+<script>
+	var zhiManager = (getzhiSDKInstance());
+	$('.zc-expand').on('click', function() {
+	    var kf_height = parseInt($("#ZCChatFrame").css("height"));
+	    if(kf_height){
+	        if(kf_height > 100){
+	            zhiManager.collapse(); //收起聊天页面
+	        } else {
+	            zhiManager.expand(); //展开聊天页面
+	        }
+	    } else{
+	        zhiManager.expand(); //展开聊天页面
+	    }
+	});
+</script></body>
+</html>
