@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+
+
+
+.topAll .hide{ display:none;}
+.topAll a{color:#333; text-decoration:none;}
+.topAll a:hover{color:#333; text-decoration:underline;}
+.topAll{ margin:auto; height:38px; background:#fbfbfb url(../image/bg_topAll.jpg) repeat-x; overflow:hidden; padding:3px 0;width:auto!important;min-width:1000px; font-size:12px;}
+.topAll p{ width:960px; position:relative; margin:auto; text-align:right; padding:10px 0 0; margin-top:0;}
+.topAll p a{margin:0 5px;}
+.topAll p a.logo{position:absolute; left:0; top:0px; background:url(../image/logo.jpg) no-repeat; width:144px; height:39px; overflow:hidden; line-height:999px;}
+.topAll p .bbxlogin{color:#f00; text-decoration:underline; }

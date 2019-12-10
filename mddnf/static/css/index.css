@@ -1,0 +1,65 @@
+.bg-wrap{position:absolute;width:100%;top:44px;z-index:-111;}
+.bg-wrap .bg{width:100%;background:url() no-repeat center top;}
+.bg-wrap .one{height:355px;background-image: url(../image/bg-banner_1920-355.jpg);}
+.bg-wrap .two{height:350px;background-image: url(../image/bg-banner_1920-350.jpg);}
+.bg-wrap .three{height:440px;background-image: url(../image/bg-banner_1920-440.jpg);}
+.bg-wrap .four{height:432px;background-image: url(../image/bg-banner_1920-432.jpg);}
+
+
+
+.header-wrap{position:relative;height:82px;background:url(../image/bg-head_1920-82.png) no-repeat center top;width:100%;}
+.head-content{width:1000px;margin:0 auto;padding-top:1px;overflow:hidden;}
+.head-logo{display:block;width:184px;height:47px;margin-top:16px;display:block;float:left;}
+.head-logo img{display:block;width:100%;}
+.head-nav{float:right;padding-right:64px;}
+.head-nav li{float:left;padding:0 20px;line-height: 81px;height:100%}
+.head-nav li a{color:#fff;font-size:18px;}
+.head-nav li a:hover{color:#3995F9;}
+
+
+
+
+
+.container-wrap{position:relative;width:100%;}
+
+.banner-content{width:100%;height:533px;width:1000px;margin:0 auto;padding-top:90px;position:relative;}
+.banner-slide{overflow:hidden;width:587px;margin-left: -10px;}
+.banner-slide-bd{width:562px;height:376px;overflow:hidden;padding:13px 12px;background:url(../image/bg-slide_587-399.png) no-repeat left top;position:relative;}
+.banner-slide-bd li{width:562px;height:376px;overflow:hidden;border-radius:5px;display:none;position:absolute;left:12px;top:13px;}
+.banner-slide-bd a{display:block;}
+.banner-slide-bd img{display:block;width:100%;}
+.banner-slide-hd{text-align:center;padding:15px 0;}
+.banner-slide-hd li{margin-left:19px;width:19px;height:19px;background:#fff;background: url("../image/bg_banner_slider.png") no-repeat -19px 0;border-radius:20px;display:inline-block;cursor:pointer;*zoom:1;*display:inline;}
+.banner-slide-hd li:first-child{margin-left:0;}
+.banner-slide-hd li:hover,.banner-slide-hd li.on{background-position: 0 0;}
+.banner-slide-hd li.on{pointer-events:none;}
+
+.download-box{position:absolute;right:138px;top:214px;}
+.download-btn{width:191px;height:94px;background:url(../image/sprite.png) no-repeat -600px top;display:block;color:#fff;padding-right:70px;padding-top:10px;margin-bottom:10px;}
+.download-btn p{text-align:center;font-size:13px;color:#fff;}
+.download-btn p:first-child{font-size:36px;font-weight:bold;}
+.download-btn:hover p:first-child{text-shadow:1px 1px 0 #FA0000;}
+
+.updatelog-info{color:#fff;width:221px;height:130px;background:url(../image/sprite.png) no-repeat -600px -115px;padding:5px 20px;line-height: 2;text-shadow: 0 0 5px #fff;}
+.updatelog-info h4{font-size:14px;font-weight:bold;line-height: 1.8}
+.updatelog-info p{font-size:12px;height: 90px;position:relative;line-height: 1.5;overflow: hidden;}
+.updatelog-info a{font-size: 12px;position:absolute;right:10px;bottom:3px;color:#FF984D;text-shadow: none;}
+.updatelog-info a:hover{text-decoration:underline;}
+.info-content{height:812px;width:1000px;margin:0 auto;}
+.info-list{margin-right:-168px;overflow:Hidden;padding-top:66px;}
+.info-list-li{position:relative;width:220px;float:left;margin-right:168px;
+	-webkit-transition:all .3s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;-ms-transition:all .2s linear;transition:all .2s linear;margin-bottom:30px;}
+.info-list-li:after{display:block;height:0;width:200px;margin:0 auto;border-bottom:1px dotted #444444;}
+.info-list-li i{display:block;margin:0 auto;width:163px;height:163px;}
+.info-list-li i img{display:block;width:100%;}
+.info-list-li p{font-size:16px;text-align:center;}
+.info-list-li p.h{font-size:35px;font-weight:bold;padding:10px 0 5px 0;}
+.info-list-li p.t{margin-bottom:35px;}
+
+
+.more-text{background:url(../image/sprite.png) no-repeat left -390px;height:80px;width:601px;margin:0 auto;padding-top:10px;}
+
+.SafeBar{ text-align:center; background:#202123;padding-top:20px;}
+
+.footer{ background-color:#202123;position:relative;}
+.footer p,.footer p a{ text-align:center; color:#b2b2b2; line-height:32px;}

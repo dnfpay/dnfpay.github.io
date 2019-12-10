@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<meta name="description" content="DNF麦兜只做市场最稳定最简单的全自动搬砖.智能升级.自动学技能.自动转职,自动红玉髓,DNF麦兜辅助奔驰SC开发唯一实力顶级Delphi开发。">
+<meta name="keywords" content="DNF麦兜,DNF麦兜辅助,DNF麦兜脚本">
+<title>更新日记_DNF麦兜辅助根据地 - DNF麦兜独家写法全新技术开发实力顶级Delphi</title>
+<link rel="stylesheet" type="text/css" href="static/css/common.min.css">
+<link rel="stylesheet" type="text/css" href="static/css/TopAll.css">
+<link rel="stylesheet" type="text/css" href="static/css/Footer.css">
+<link rel="stylesheet" type="text/css" href="static/css/updatelog.css">
+<script type="text/javascript" src="static/js/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+<div class="bg-wrap">
+  <div class="bg one" style="display:none"></div>
+  <div class="bg two"></div>
+  <div class="bg three"></div>
+</div>
+<div class="header-wrap">
+  <div class="head-content"> <a class="head-logo" href="index.html" title="DNF麦兜辅助根据地 - DNF麦兜独家写法全新技术开发实力顶级Delphi"><img src="static/picture/20191106233722913.png" alt="DNF麦兜辅助根据地 - DNF麦兜独家写法全新技术开发实力顶级Delphi"></a>
+        <ul class="head-nav">
+            <li><a href="index.html">DNF麦兜</a></li>
+            <li><a href="xiaza.html">下载地址</a></li>
+            <li><a href="shuoming.html">使用说明</a></li>
+            <li><a target="_blank" href="javascript:;">订单查询</a></li>
+        </ul>
+  </div>
+</div>
+<div class="header-wrap fixed" id="fixedHeader">
+  <div class="head-content"> <a class="head-logo" href="index.html" title="DNF麦兜辅助根据地 - DNF麦兜独家写法全新技术开发实力顶级Delphi"><img src="static/picture/20191106233722913.png" alt="DNF麦兜辅助根据地 - DNF麦兜独家写法全新技术开发实力顶级Delphi"></a>
+        <ul class="head-nav">
+            <li><a href="xiaza.html">下载地址</a></li>
+            <li><a target="_blank" href="javascript:;">购买地址</a></li>
+        </ul>
+  </div>
+</div>
+<script type="text/javascript">
+$(window).scroll(function () {
+    var scrollTop = $(window).scrollTop();
+    scrollTop > 60 ? $("#fixedHeader").stop(true, true).fadeIn() : $("#fixedHeader").stop(true, true).fadeOut();
+});
+</script>
+<div class="container-wrap">
+  <div class="banner-content" style="height:150px;">
+    <h1 class="title"><span class="hide">更新日志</span></h1>
+  </div>
+  <div class="info-content" style="height:100%">
+    <div class="mainBody" id="updataLog" style="height:100%">
+      <div id="UpdLogDataSource" style="display:none;height:100%">
+      
+          
+<div class="Item">
+	<div class="Title">
+		DNF麦兜	</div>
+	<div class="Date">
+		2019-11-6	</div>
+	<div class="Content">
+		麦兜 市场唯一驱动飞机（含脚本功能）<br>
+唯一安装驱动吃鼠标后台项目，驱动永远比一般辅助劫持稳。<br>
+长期，稳定，高收益，客户和代理的完美选择。<br>
+支持存仓 金币 材料 浓缩。<br>
+麦兜内置材料扫拍！异界永恒门票扫拍，升级材料扫拍。<br>
+独家卖物！蓝白紫异界出售物品！高于友商百分之35收益！<br>
+独家4模式，代码白字黄字，微调倍攻（不吃装备）一切吃肉尽在麦兜！<br>	</div>
+</div>  
+        
+
+      
+      
+      
+      
+      
+
+      </div>
+      <div class="explain itemL Left" id="UpdLogLeftPanel">
+        <div class="box" style="display:none;" id="UpdLogLeftTpl">
+          <div class="ico"></div>
+          <dl>
+            <dt><span class="Right time">{Date}</span>{Title}</dt>
+            <dd>{Content}</dd>
+          </dl>
+          <i></i> </div>
+      </div>
+      <div class="explain itemR Left" id="UpdLogRightPanel">
+        <div class="box" style="display:none;" id="UpdLogRightTpl">
+          <div class="ico"></div>
+          <dl>
+            <dt> <span class="Right">{Title}</span> <span class="time">{Date}</span> </dt>
+            <dd>{Content}</dd>
+          </dl>
+          <i></i> </div>
+      </div>
+      <div class="time-bar"><i></i></div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+		(function(){
+            var preItemEl=null;
+            var allAppPanels=[$('#UpdLogLeftPanel'),$('#UpdLogRightPanel')];
+            var allAppTpls=[$('#UpdLogLeftTpl'),$('#UpdLogRightTpl')];
+            $('#UpdLogDataSource>.Item').each(function(i){
+                //获取模版
+                var item=$(this);
+                var title=item.find('.Title').html();
+                var date=item.find('.Date').html();
+                var content=item.find('.Content').html();
+
+                var currPanel=allAppPanels[i%2];//左右轮着来
+                var currTpl=allAppTpls[i%2];//左右轮着来
+                var newItem=currTpl.clone();
+                var newItemHTML=newItem.html().replace('{Title}',title).replace('{Date}',date).replace('{Content}',content);
+                newItem.html(newItemHTML);
+                var marginTop=(preItemEl?preItemEl.height():0);
+                newItem.css({ marginTop: marginTop+"px" }).show().appendTo(currPanel);
+                preItemEl=newItem;
+            });
+	    })();
+    </script> 
+
+<br>
+<br>
+
+<div class="footer" style="background-color: #202123;margin-top: 50px;"> All rights reserved DNF麦兜，DNF麦兜辅助<span>，</span>DNF麦兜官网 </div>
+<!--/footer--> 
+
+<!--客服QQ入口--> 
+<a class="qqservice" href="javascript:;" id="qqservice"></a> 
+<script type="text/javascript">
+//导航随滚动条滚动
+		var ZipperAdTop = 220;
+		var ZipperAdSetTimeOut = null;
+		$(window).scroll(function () {
+			window.clearTimeout(ZipperAdSetTimeOut);
+			ZipperAdSetTimeOut = window.setTimeout(function () {
+				var scrollTop = $(window).scrollTop();
+				var scrollTop = scrollTop > 2000 ? 2000 : scrollTop;
+				$("#qqservice").stop().animate({ top: (scrollTop + ZipperAdTop) + "px" }, 500);
+			}, 200);
+		});
+</script>
+</body>
+</html>
