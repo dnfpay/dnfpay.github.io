@@ -1,0 +1,196 @@
+
+
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <title>微魔方-如何清除各大浏览器缓存？</title>
+    <meta name="keywords" content="微魔方,自助建站,智能建站,自助拖拽建站,免费建站,网站建设,网站制作,网站设计,网页设计,网站模板,网页模板,企业建站,微站,手机建站,手机网站,企驰微魔方,自由拖拽">
+    <meta name="description" content="">
+    <link href="static/css/cube2.css" rel="stylesheet">
+    <link href="static/css/home1.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="static/js/html5shiv.js"></script>
+    <script src="static/js/respond.min1.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <!--help-header-->
+    <div class="help-header">
+        <div class="inner-wrap">
+
+            <!--help-logo-->
+            <a href="index2.html" class="help-logo">微魔方帮助中心</a>
+            <!--/help-logo-->
+            <!--search-group-->
+            <div class="search-group help-search-group">
+                <input type="text" id="searchKey" class="template-search-input" placeholder="请输入关键字">
+                <button class="template-search-btn" onclick="Search()"><i class="fa fa-search"></i></button>
+            </div>
+            <!--/search-group-->
+        </div>
+    </div>
+    <!--/help-header-->
+    <!--help-container-->
+    <div class="help-container clearfix">
+        <div class="inner-wrap">
+
+            <!--help-sidebar-->
+            <div class="help-sidebar clearfix">
+                <!--help-sidebar-nav-group-->
+                    <div class="help-sidebar-nav-group">
+                        <div class="help-sidebar-nav-title">快速入门</div>
+                        <ul class="help-sidebar-nav-list">
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">怎样让搜索引擎收录我的网站？</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">如何使用微魔方建网站？</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">模板简介</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">站点设置</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">设计器概述</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">页面管理</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">组件概述</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">内容管理简介</a></li>
+                        </ul>
+                    </div>
+                    <div class="help-sidebar-nav-group">
+                        <div class="help-sidebar-nav-title">常见问题</div>
+                        <ul class="help-sidebar-nav-list">
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">腾讯云购买的用户如何进入站点</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">如何在微魔方实现文件下载？</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="">如何清除各大浏览器缓存？</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">站点的升级与续费</a></li>
+                        </ul>
+                    </div>
+                    <div class="help-sidebar-nav-group">
+                        <div class="help-sidebar-nav-title">高级技巧</div>
+                        <ul class="help-sidebar-nav-list">
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">如何用好容器组件</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">图片背景在网站建设中的运用</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">如何提高网站设计效率</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">如何去掉微魔方版权</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">网站更换模板会影响原来的排名？</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">微信公众号管理</a></li>
+                        </ul>
+                    </div>
+                    <div class="help-sidebar-nav-group">
+                        <div class="help-sidebar-nav-title">使用手册</div>
+                        <ul class="help-sidebar-nav-list">
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">文字组件</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">组件常见设置</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">图片组件</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">控制面板简介</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">设计器快捷键说明</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">组图组件</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">按钮组件</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">列表组件</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">导航组件</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">幻灯组件</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">线条组件</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">容器组件</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">地图组件</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">注册微魔方账号</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">标签组件</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">标题组件</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">音频视频组件</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">组件动画效果设置</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">全屏页面</a></li>
+                        </ul>
+                    </div>
+                    <div class="help-sidebar-nav-group">
+                        <div class="help-sidebar-nav-title">管理网站内容</div>
+                        <ul class="help-sidebar-nav-list">
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">如何调整列表内新闻产品的顺序？</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">如何更改网站图标</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">如何管理网站的文章</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">如何管理网站的产品</a></li>
+                        </ul>
+                    </div>
+                    <div class="help-sidebar-nav-group">
+                        <div class="help-sidebar-nav-title">域名设置和站点备案</div>
+                        <ul class="help-sidebar-nav-list">
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">网站域名绑定和域名解析</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">购买域名需要提供什么资料?</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">如何在腾讯云给网站域名备案</a></li>
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">如何在微魔方安装SSL证书？</a></li>
+                        </ul>
+                    </div>
+                    <div class="help-sidebar-nav-group">
+                        <div class="help-sidebar-nav-title">微魔方小程序</div>
+                        <ul class="help-sidebar-nav-list">
+                                <li class="help-sidebar-nav-list-item"><a href="javascript:;">如何用微魔方建微信小程序</a></li>
+                        </ul>
+                    </div>
+                <!--/help-sidebar-nav-group-->
+            </div>
+            <!--/help-sidebar-->
+            <!--help-main-->
+            <div class="help-main clearfix">
+                <!--breadcrumb-->
+                <div class="breadcrumb">
+                    <i class="fa fa-home"></i> / <a href="index2.html">帮助首页</a> / 如何清除各大浏览器缓存？
+                </div>
+                <!--/breadcrumb-->
+                <!--help-content-->
+                <div class="help-content clearfix">
+                    <p>
+                        <p style="white-space: normal;"><span style="font-family:微软雅黑, Microsoft YaHei"><span style="font-size: 36px;">清除浏览器缓存</span></span></p><hr style="white-space: normal; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: solid; border-top-color: rgb(221, 221, 221);"><p style="white-space: normal;"><span style="box-sizing: border-box; font-weight: 700; color: rgb(51, 51, 51); font-family: 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);"></span></p><p style="white-space: normal;"><span style="color: rgb(51, 51, 51); font-family: 微软雅黑, Helvetica, 黑体, Arial, Tahoma; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);"><strong>　</strong></span></p><p><span style="font-size: 14px; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"><strong style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);">IE7、8、9（本文以IE8为例）<br></strong><span style="font-size: 14px; color: rgb(51, 51, 51); line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);">开始------在IE图标上右键--------internet属性，弹出属性对话框</span><br style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px; color: rgb(51, 51, 51); line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);">点击“删除”按键</span><br style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px; color: rgb(51, 51, 51); line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);">选择要删除的项目，点击“删除”即可。</span></span></p><p><br></p><p><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px; color: rgb(51, 51, 51); line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><img src="static/picture/6359140381245332497683832.jpg" title="IE8.jpg" alt="IE8.jpg"></span></p><p><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px; color: rgb(51, 51, 51); line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><br></span></p><p><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px; color: rgb(51, 51, 51); line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><img src="static/picture/6359140382319384845103734.jpg" title="IE8-1.jpg" alt="IE8-1.jpg"></span></p><p><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px; color: rgb(51, 51, 51); line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"></span></p><h2 class="exp-content-head" style="margin: 40px 0px 0px; padding: 0px 0px 7px; font-size: 22px; font-weight: 400; font-stretch: normal; line-height: 24px; font-family: 微软雅黑; color: rgb(51, 51, 51); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(214, 214, 216); white-space: normal; background-color: rgb(255, 255, 255);">火狐浏览器（Firefox ）</h2><p><span style="font-size: 14px; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"><br></span></p><p><span style="font-size: 14px; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;">菜单栏 历史记录-------清除最近历史记录</span></p><p><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px; color: rgb(51, 51, 51); line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><img src="static/picture/6359140394190753443401611.png" title="QQ图片20160218145148.png" alt="QQ图片20160218145148.png"></span><br></p><p><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px; color: rgb(51, 51, 51); line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;">弹出历史记录,点击 &quot;清除最近的历史记录...&quot;或者使用Ctrl+Shift+Del快捷键</span></span></p><p><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px; color: rgb(51, 51, 51); line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><br></span></span></p><p><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px; color: rgb(51, 51, 51); line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><img src="static/picture/6359140402068692665099705.png" title="火狐2.png" alt="火狐2.png"></span></p><p><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px; color: rgb(51, 51, 51); line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><br></span></p><p><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px; color: rgb(51, 51, 51); line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);">选择要删除的内容，选择历史记录的时间，单击“立即清除”即可。</span></span></p><p><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px; color: rgb(51, 51, 51); line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><br></span></p><p><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px; color: rgb(51, 51, 51); line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><img src="static/picture/6359140407193694147775875.png" title="火狐3.png" alt="火狐3.png"></span></p><p><br></p><p></p><h2 class="exp-content-head" style="margin: 40px 0px 0px; padding: 0px 0px 7px; font-size: 22px; font-weight: 400; font-stretch: normal; line-height: 24px; font-family: 微软雅黑; color: rgb(51, 51, 51); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(214, 214, 216); white-space: normal; background-color: rgb(255, 255, 255);">360极速浏览器（360 chrome）</h2><p><br></p><p><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;">右侧“扳手”图标-------工具-------清除浏览数据</span></p><p><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"></span></p><p><br></p><p><img src="static/picture/6359140420189115026880151.jpg" style="" title="360.jpg"></p><p><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; font-size: 14px; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);">选择要删除的内容，选择历史记录的时间，单击“清除浏览数据”即可。</span></p><p><br></p><p><img src="static/picture/6359140422052077186950859.jpg" title="360-2.jpg" alt="360-2.jpg"></p><p><br></p><h2 class="exp-content-head" style="white-space: normal; margin: 40px 0px 0px; padding: 0px 0px 7px; font-size: 22px; font-weight: 400; font-stretch: normal; line-height: 24px; font-family: 微软雅黑; color: rgb(51, 51, 51); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(214, 214, 216); background-color: rgb(255, 255, 255);">百度浏览器</h2><p style="white-space: normal;"><br></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);">点击右侧齿轮状图标-------清除浏览记录</span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"></span></span></p><p><br></p><p><img src="static/picture/6359140429117485203770436.jpg" style="" title="百度浏览器.jpg"></p><p><br></p><p><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; font-size: 14px; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);">选择要删除的内容，选择历史记录的时间，单击“清除”即可。</span></p><p><img src="static/picture/6359140430909057902928764.jpg" title="百度浏览器-1.jpg" alt="百度浏览器-1.jpg"></p><p><br></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"></span></span></p><h2 class="exp-content-head" style="white-space: normal; margin: 40px 0px 0px; padding: 0px 0px 7px; font-size: 22px; font-weight: 400; font-stretch: normal; line-height: 24px; font-family: 微软雅黑; color: rgb(51, 51, 51); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(214, 214, 216); background-color: rgb(255, 255, 255);">谷哥浏览器（Google Chrome）</h2><p style="white-space: normal;"><br></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);">点击右上角工具栏图标-------设置</span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><img src="static/picture/6359140478477577842302640.png" title="谷歌.png" alt="谷歌.png"></span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><br></span></span></p><p style="text-align: justify; white-space: normal;"><font color="#333333" face="Microsoft Yahei, 微软雅黑, arial, 宋体, sans-serif"><span style="font-size: 14px; line-height: 28px; background-color: rgb(255, 255, 255);">进入设置界面，点击历史记录</span></font></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><img src="static/picture/6359140483620998176922442.png" title="谷歌2.png" alt="谷歌2.png"></span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><br></span></span></p><p style="text-align: justify; white-space: normal;"><font color="#333333" face="Microsoft Yahei, 微软雅黑, arial, 宋体, sans-serif"><span style="font-size: 14px; line-height: 28px; background-color: rgb(255, 255, 255);">进入历史记录界面后，点击清除浏览数据</span></font></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><br></span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><img src="static/picture/6359140487264399793423000.png" title="谷歌3.png" alt="谷歌3.png"></span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><br></span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; font-size: 14px; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);">选择要删除的内容，选择历史记录的时间，单击“清除浏览数据”即可。</span></span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><img src="static/picture/6359140500359922174882521.png" title="谷歌4.png" alt="谷歌4.png"></span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"></span></span></p><h2 class="exp-content-head" style="white-space: normal; margin: 40px 0px 0px; padding: 0px 0px 7px; font-size: 22px; font-weight: 400; font-stretch: normal; line-height: 24px; font-family: 微软雅黑; color: rgb(51, 51, 51); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(214, 214, 216); background-color: rgb(255, 255, 255);">苹果浏览器（Safari）</h2><p style="white-space: normal;"><br></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);">点击右侧齿轮状图标--------勾选显示菜单栏</span></span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><img src="static/picture/6359140512686761297391530.jpg" title="苹果1.jpg" alt="苹果1.jpg"></span></span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><br></span></span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);">菜单栏 编辑-------清空缓存</span><br style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);">弹出确认对话框，点击“清空”。</span></span></span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><img src="static/picture/6359140516936098694844962.jpg" title="苹果2.jpg" alt="苹果2.jpg"></span></span></span></span></p><p style="white-space: normal;"><img src="static/picture/6359140519247669495613478.jpg" title="苹果3.jpg" alt="苹果3.jpg"></p><p style="white-space: normal;"><br></p><p style="white-space: normal;"><span style="font-size: 14px; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;"><span style="font-size: 14px; color: rgb(51, 51, 51); line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);">菜单栏 历史记录------清除历史记录</span><br style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px; color: rgb(51, 51, 51); line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);">弹出对话框，点击“清除”。</span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><img src="static/picture/6359140522075808797708101.jpg" title="苹果4.jpg" alt="苹果4.jpg"></span></span><br></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><img src="static/picture/6359140524926993497328608.jpg" title="苹果5.jpg" alt="苹果5.jpg"></span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><br></span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"></span></span></p><h2 class="exp-content-head" style="margin: 40px 0px 0px; padding: 0px 0px 7px; font-size: 22px; font-weight: 400; font-stretch: normal; line-height: 24px; font-family: 微软雅黑; color: rgb(51, 51, 51); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(214, 214, 216); white-space: normal; background-color: rgb(255, 255, 255);">Opera 11</h2><p style="white-space: normal;"><br></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);">工具栏 菜单-------设置--------删除私人数据</span></span></span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><img src="static/picture/6359140535683629244035239.jpg" title="OPRA11.jpg" alt="OPRA11.jpg"></span></span><br></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);">弹出对话框，点击“详细选项”</span></span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><img src="static/picture/6359140537491033097678708.jpg" title="OP11-1.jpg" alt="OP11-1.jpg"></span></span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><br></span></span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);">选择你要删除的内容，单击“删除”即可</span></span></span></span></p><p style="white-space: normal;"><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: &#39;Microsoft Yahei&#39;, 微软雅黑, arial, 宋体, sans-serif; line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><img src="static/picture/6359140539365717792950478.jpg" title="OPR11-2.jpg" alt="OPR11-2.jpg"></span></span></span></span></p><p><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;"><br></span><br></p><p><span style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px; color: rgb(51, 51, 51); line-height: 28px; text-align: justify; background-color: rgb(255, 255, 255);"><br></span><br></p>
+                    
+                </div>
+                <!--/help-content-->
+
+            </div>
+            <!--/help-main-->
+        </div>
+    </div>
+    <!--/help-container-->
+    <!--help-footer-->
+    <div class="help-footer">
+        ©2015 wemorefun.com, All Rights Reserved.　长沙企驰网络科技有限公司　湘ICP备16000517号
+    </div>
+    <!--/help-footer-->
+    <script type="text/javascript" src="static/js/jquery.min.js"></script>
+    <script type="text/javascript">
+        function SelectHelpCategory(id, key) {
+            $.ajax({
+                cache: false,
+                url: "/Home/GetHelpContentById",
+                data: { id: id, key: key },
+                type: "post",
+                success: function (data) {
+                    $(".help-content p").html(data.content);
+
+                },
+                error: function (e) {
+
+                }
+            });
+        }
+
+        function Search() {
+            if ($("#searchKey").val().length > 0) {
+                location.href = "/search?key=" + $("#searchKey").val();
+            }
+            else
+            {
+                alert("请输入关键字");
+            }
+        }
+
+        $('#help-sidebar').simpleSidebar({
+            opener: '#toggle-sidebar',
+            wrapper: '#help-main',
+            sidebar: {
+                align: 'right',
+                closingLinks: '.close-sidebar',
+            },
+            sbWrapper: {
+                display: true
+            }
+        })
+    </script>
+</body>
+</html>

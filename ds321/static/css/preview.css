@@ -1,0 +1,98 @@
+body,html { height:100%;}
+.template-preview-body { margin:0; padding:0; padding-top:60px; overflow:hidden;}
+
+
+.template-preview-header { *position:relative; clear:both; margin-top:-60px; height:60px; line-height:60px; background-color:#262626; color:#fff;}
+.template-preview-header .logo-s { float:left; display:inline-block; margin:10px 0 0 10px; width:310px; height:40px; background:url(../image/logo.png) no-repeat left center; text-indent:-100000px;}
+.template-preview-header .template-preview-infobar { float:right; display:inline-block;}
+.template-preview-header .template-preview-infobar .template-preview-item { float:left; display:inline-block; padding:0 10px; height:60px; line-height:60px; border-right:1px solid #434343; font-size:14px;}
+
+
+.share-icon { display:inline-block; margin:0 5px; *margin-top:15px; padding:0; width:30px; height:30px; line-height:30px; line-height:1.4; border-radius:50%; border:1px solid #939393; background-color:transparent; font-size:14px; color:#939393;}
+.share-icon:hover { color:#fff; text-decoration:none;}
+.share-icon .fa { margin-top:30%;}
+.share-text { display:inline-block; *position:relative; *margin-top:-40px; *line-height:32px;}
+
+.template-designer,.template-price { display:inline-block; margin:0 5px;}
+
+.template-use-btn { display:inline-block; padding:4px 8px 3px; width:110px; line-height:30px; border-radius:3px; background-color:#8EC960; text-align:center; font-size:14px; color:#fff;}
+.template-use-btn:hover { color:#fff; text-decoration:none;}
+.template-use-btn .fa { margin-right:5px;}
+
+.template-close-btn { display:inline-block; *margin-top:24px; padding:0 15px; font-size:14px; color:#939393;}
+.template-close-btn:hover { color:#fff; text-decoration:none;}
+
+
+.media-type { display:inline-block; margin:0 10px; line-height:30px;}
+.media-type .media-type-item { display:inline-block; width:36px; height:36px;}
+.media-type .media-type-item a { display:block; line-height:36px; border-radius:3px; text-align:center; font-size:14px; color:#939393; text-decoration:none;}
+.media-type .media-type-item a:hover { color:#fff; text-decoration:none;}
+.media-type .media-type-item.active a { background-color:#939393; color:#fff;}
+
+
+.template-preview-container { position:relative; clear:both; margin:0 auto; width:100%; height:100%;}
+.template-preview-container iframe { position:absolute; top:0; right:0; bottom:0; left:0; width:100%; height:100%;}
+
+
+
+.template-wrap { clear:both; margin:0 auto; padding:0; width:1160px;}
+
+.header-nav-wrap { clear:both; display:block; height:60px; background:url(../image/opacity-line.png) repeat-x center bottom;}
+.header-nav-wrap .inner-wrap { height:60px; line-height:60px;}
+
+.logo { float:left; display:inline-block; *display:block; width:310px; height:60px; background:url(../image/logo.png) no-repeat left center; text-indent:-10000000px;}
+
+.header-nav { float:right; display:inline-block; *display:block; margin:0; padding:0; list-style:none;}
+.header-nav .header-nav-item { float:left; display:inline-block; margin:0 5px; height:60px;}
+.header-nav .header-nav-item a { display:block; padding:0 10px; line-height:57px; border-top:3px solid transparent; text-align:center; font-size:16px; color:#fff;}
+.header-nav .header-nav-item a:hover { border-top-color:#fff; color:#fff;}
+
+.log-group { float:right; display:inline-block; max-width:200px; height:60px; line-height:60px; text-align:right;}
+.log-group .log-btn { display:inline-block; margin-right:10px; padding:5px 10px; border-radius:2px; border:1px solid #fff; line-height:1.5; font-size:12px;}
+.log-group .reg-btn { background-color:#fff; color:#55BBA0;}
+.log-group .reg-btn:hover { border-color:rgba(255,255,255,.3); background-color:rgba(255,255,255,.5); *background-color:transparent; color:#fff;}
+.log-group .login-btn { background-color:transparent; color:#fff;}
+.log-group .login-btn:hover { border-color:rgba(255,255,255,.3); background-color:rgba(255,255,255,.5); *background-color:transparent; color:#fff;}
+
+.login-group { float:right; display:inline-block; margin-top:15px; line-height:60px;}
+.login-group .loged-btn { float:right; padding:5px; max-width:100px; background-color:#fff; color:#55BBA0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; word-break:break-all; text-align:center;}
+.login-group .logout-btn { float:right; background-color:transparent; color:#fff;}
+
+
+
+.mobile-preview-wrap { position:relative; margin:0 auto; padding:0; width:1160px; height:100%; font-family:"Microsoft Yahei","微软雅黑",Arial,Helvetica,sans-serif;}
+.mobile-preview-wrap .mp-sidebar-left { position:absolute; top:0; bottom:0; left:0; width:200px; text-align:center;}
+.mobile-preview-wrap .mp-sidebar-right { position:absolute; top:0; right:0; bottom:0; width:200px;}
+.mobile-preview-wrap .mp-container { position:absolute; top:0; right:200px; bottom:0; left:200px;}
+
+
+.qcode-box { position:fixed; margin:120px auto 0 auto; width:174px; height:264px;}
+.qcode-box .qcode-img { clear:both; padding:5px; width:174px; height:174px; background-color:#EEE;}
+.qcode-box .qcode-text { line-height:50px; text-align:center; font-size:16px; color:#444;}
+.choosed-template-btn { margin-top:20px;}
+
+
+
+
+.mobile-box { clear:both; margin:20px auto; width:368px;}
+.mobile-box .mobile-header { clear:both; height:91px; background:url(../image/mobile-header.jpg) no-repeat center top;}
+.mobile-box .mobile-container { position:relative; clear:both; background:url(../image/mobile-container.jpg) no-repeat center top;}
+.mobile-box .mobile-footer { clear:both; height:90px; background:url(../image/mobile-footer.jpg) no-repeat center top;}
+
+.mobile-box .mobile-container .mobile-iframe { position:absolute; top:0; right:0; bottom:0; left:24px; width:320px; border:0;}
+
+
+.bdshare-button-style0-24 a, .bdshare-button-style0-24 .bds_more {
+	float:none !important;
+	font-size:14px !important;
+	padding-left:0 !important;
+	line-height:30px !important;
+	height:30px !important;
+	background-image:none !important;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	margin:0 !important;
+}
+.bd_weixin_popup { height:305px !important;}
+
+.bdshare-button-style0-24 a:hover:before { color:#fff;}

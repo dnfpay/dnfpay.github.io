@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>微魔方-登录</title>
+    <meta name="keywords" content="微魔方,自助建站,智能建站,自助拖拽建站,免费建站,网站建设,网站制作,网站设计,网页设计,网站模板,网页模板,企业建站,微站,手机建站,手机网站,企驰微魔方,自由拖拽">
+    <meta name="description" content="">
+    <!-- base -->
+    <link href="static/css/cube.css" rel="stylesheet">
+    <link href="static/css/font-awesome.min1.css" rel="stylesheet">
+    <link href="static/css/sim.theme.css" rel="stylesheet">
+    <link href="static/css/newlogin-1.0.1.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/switch.min.css">
+    <script src="static/js/jquery-1.10.2.min.js"></script>
+    <script src="static/js/jquery.validate.min.js"></script>
+    <script src="static/js/jquery.validate.unobtrusive.min.js"></script>
+    <script src="static/js/switch.min.js"></script>
+    <script src="static/js/canvasbg.js"></script>
+    <script src="static/js/login.js"></script>
+    <!--[if lt IE 9]>
+    <link href="static/css/font-awesome-ie7.min.css" rel="stylesheet">
+    <script src="static/js/html5shiv.js"></script>
+    <script src="static/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="login-body">
+
+    <div id="canvas-wrapper">
+        <canvas id="demo-canvas"></canvas>
+    </div>
+
+    <!--login-box-->
+    <div class="login-box">
+
+        <!--login-container-->
+        <div class="login-container">
+
+            <!--login-topbar-->
+                <div class="login-topbar">
+                    <div class="login-logo"><img src="static/picture/logo.png"></div>
+                    <div class="topbar-link">
+                        <a href="index1.html">微魔方首页</a>
+                        <a href="index2.html" target="_blank">帮助中心</a>
+                    </div>
+                </div>
+
+            <!--/login-topbar-->
+<form action="/login" method="post">            <!--login-form-->
+                <div class="login-form">
+                    <div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>
+                    <div class="login-form-item">
+                        <div class="login-form-group">
+                            <div class="login-form-icon"><i class="fa fa-user"></i></div>
+                            <input class="login-input-text" data-val="true" data-val-required="请输入用户名" id="Username" name="Username" placeholder="用户名/邮箱/手机号" type="text" value="">
+                        </div>
+                    </div>
+
+                    <div class="login-form-item">
+                        <div class="login-form-group">
+                            <div class="login-form-icon"><i class="fa fa-lock"></i></div>
+                            <input class="login-input-text" data-val="true" data-val-required="请输入密码" id="Password" name="Password" placeholder="密码" type="password">
+                        </div>
+                    </div>
+
+                    <div class="pw-operate">
+                        <label class="pwcheck">
+                            
+                            <span class="checkbox_no" style="display:block;">&nbsp;</span>
+                            <span>记住密码</span>
+                            <input data-val="true" data-val-required="&#39;Remember Me&#39; must not be empty." id="RememberMe" name="RememberMe" type="checkbox" value="true"><input name="RememberMe" type="hidden" value="false">
+                        </label>
+
+                                <a class="reg" target="_blank" href="register.html">免费注册</a>
+                                <a class="forget-wp" href="javascript:;">忘记密码？</a>
+                    </div>
+
+                    <div class="login-form-item">
+                        <input id="login-btn" class="login-btn" type="submit" value="登录" title="登录">
+                    </div>
+                        <div class="openlogin">
+                            <!-- 第三方登录 start -->
+                            <p class="qrcode-title"><span class="cross-line"></span>第三方账号登录<span class="cross-line"></span></p>
+                            <div class="img-item">
+                                <a class="login_wx" href="javascript:;"><i class="fa fa-weixin"></i></a>
+                                <a class="login_qq" href="javascript:;"><i class="fa fa-qq"></i></a>
+                                <a class="login_weibo" href="javascript:;"><i class="fa fa-weibo"></i></a>
+                            </div>
+                            <div class="img-word">
+                                <span style="padding-left:58px;">微信账号</span>
+                                <span style="padding-left:45px">QQ账号</span>
+                                <span style="padding-left:25px">微博账号</span>
+                            </div>
+                            <!-- 第三方登录 end -->
+                        </div>
+                </div>
+            <!--/login-form-->
+</form>
+        </div>
+        <!--/login-container-->
+
+    </div>
+    <!--/login-box-->
+</body>
+</html>

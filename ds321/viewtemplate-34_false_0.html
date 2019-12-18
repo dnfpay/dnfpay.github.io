@@ -1,0 +1,126 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta property="qc:admins" content="3602675276675572565663757">
+    <meta property="wb:webmaster" content="786a49c700829b8e">
+        <title>微魔方-国内领先的免费在线自助云建站平台|免费建站|自助拖拽建站|网站建设|企驰微魔方</title>
+    <meta name="keywords" content="微魔方,自助建站,智能建站,自助拖拽建站,免费建站,网站建设,网站制作,网站设计,网页设计,网站模板,网页模板,企业建站,微站,手机建站,手机网站,企驰微魔方,自由拖拽">
+    <meta name="description" content="">
+    <link href="static/css/cube.css" rel="stylesheet">
+    <link href="static/css/preview.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+     <link href="static/css/font-awesome-ie7.min.css" rel="stylesheet" />
+    <script src="static/js/html5shiv.js"></script>
+    <script src="static/js/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="static/js/jquery-1.10.2.min.js"></script>
+    <script src="static/js/jquery.modal.min.js"></script>
+    <script src="static/js/bootbox.js"></script>
+    <script>
+        $(function () {
+            window._bd_share_config = {
+                "common": {
+                    "bdSnsKey": { "tsina": "wqdian", "tqq": "wqdian", "t163": "wqdian", "tsohu": "wqdian" }, "bdText": "推荐一个免费好看的网站模板", "bdMini": "1", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "24", "bdUrl": "http://mb20160220223908.wemorefun.com"
+                }, "share": {}
+            }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+        });
+    </script>
+</head>
+
+<body class="template-preview-body">
+    <!--template-preview-header-->
+    <div class="template-preview-header">
+            <a href="index1.html" class="logo-s">微魔方</a>
+        <!--template-preview-infobar-->
+        <div class="template-preview-infobar">
+
+
+            <div class="template-preview-item">
+                <ul class="media-type">
+                    <li class="media-type-item active">
+                        <a href="javascript:;">
+                            <i class="fa fa-desktop"></i>
+                        </a>
+                    </li>
+                        <li class="media-type-item  ">
+                            <a href="javascript:;">
+
+                                <i class="fa fa-tablet"></i>
+                            </a>
+                        </li>                </ul>
+            </div>
+
+            <!--share-group-->
+                <div class="template-preview-item bdsharebuttonbox">
+                    <span class="share-text">分享到：</span>
+                    <a href="javascript:void(0);" class="share-icon fa fa-wechat" data-cmd="weixin"></a>
+                    <a href="javascript:void(0);" class="share-icon fa fa-weibo" data-cmd="tsina"></a>
+                </div>
+            <!--/share-group-->
+            <!--template-info-->
+            <div class="template-preview-item">
+                <div class="template-designer">设计师：微魔方</div>
+                <div class="template-price">免费</div>
+            </div>
+            <!--/template-info-->
+            <!--template-use-->
+            <div class="template-preview-item">
+                        <a href="javascript:;" class="template-use-btn"><i class="fa fa-wrench"></i> 使用此模板</a>
+
+            </div>
+            <!--/template-close-->
+
+        </div>
+        <!--/template-preview-infobar-->
+
+    </div>
+    <!--/template-preview-header-->
+    <!--template-preview-container-->
+    <div class="template-preview-container">
+        <div class="template-pc-wrap">
+            <iframe src="javascript:;" frameborder="no" border="0" model="pc" name="preview"></iframe>
+        </div>
+    </div>
+    <!--/template-preview-container-->
+
+
+    <div id="modal-loading" class="modal modal-sm">
+        <div class="modal-body text-center">
+            <img src="static/picture/logo-loading.gif">
+        </div>
+    </div>
+    <script>
+        function selectTemplate(templateId) {
+            //新建站点
+            //切换模板
+            $("body").Confirm2("模板切换后站点数据将丢失，确定切换?", function (flag) {
+                if (flag) {
+                    $("#modal-loading").reveal();
+                    $.post("/Site/sitemanager/changetemplate", { siteId: '0', templateId: templateId }, function (data) {
+                        $("#modal-loading").trigger("reveal:close");
+                        if (data.IsSuccess) {
+                            $("body").Success2(data.Message, function () {
+                                location.href = data.Url;
+
+                            });
+                        } else {
+                            $("body").Error2(data.Message);
+                        }
+                    });
+                }
+
+            })
+
+
+        }
+
+    </script>
+</body>
+</html>

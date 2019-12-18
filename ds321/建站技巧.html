@@ -1,0 +1,450 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <title>微魔方社区 - 国内领先的免费在线自助云建站平台|免费建站|自助拖拽建站|网站建设|企驰微魔方</title>
+    <meta name="keywords" content="微魔方,自助建站,智能建站,免费建站,网站建设,网站制作,网站设计,网页设计,网站模板,网页模板,企业建站,微站,手机建站,手机网站,企驰微魔方,自由拖拽">
+    <meta name="description" content="微魔方，国内领先的免费在线自助云建站平台。1分钟快速建站神器。只需拖拽鼠标即可完成PC、手机、微站的页面设计。应用市场集成热门模块、流行组件，即装即用、方便扩展，海量个性模板，满足用户多样需求。强大的内容和权限管理系统，轻松更新网站内容，一处添加，多终端同步。">
+    <link href="static/css/cube2.css" rel="stylesheet">
+    <link href="static/css/forum.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="static/js/html5shiv.js"></script>
+    <script src="static/js/respond.min2.js"></script>
+    <![endif]-->
+    <script src="static/js/jquery-1.10.2.min1.js"></script>
+</head>
+
+<body>
+
+    <div class="wrap">
+        
+
+
+
+<!--header-wrap-->
+<div class="header-wrap clearfix">
+    <div class="inner-wrap clearfix">
+
+        <!--logo-->
+        <a href="index3.html" class="logo">微魔方社区</a>
+        <!--/logo-->
+        <!--log-group-->
+        <div class="log-group">
+            <span class="login-pack">
+
+                <a href="javascript:;">登录</a>
+            </span>
+        </div>
+        <!--/log-group-->
+        <!--menu-->
+        
+
+<ul class="menu">
+    <li class="menu-item"><a href="index3.html">社区首页</a></li>
+    <li class="menu-item"><a href="index1.html">网站首页</a></li>
+    <li class="menu-item"><a href="index2.html">帮助中心</a></li>
+</ul>
+
+        <!--/menu-->
+
+    </div>
+</div>
+<!--/header-wrap-->
+<!--container-wrap-->
+<div class="container-wrap clearfix">
+    <div class="inner-wrap clearfix">
+        <!--container-topbar-->
+        <div class="container-topbar">
+
+            <!--breadcrumb-->
+            <ul class="breadcrumb">
+                <ul class="breadcrumb">
+                    <!--breadcrumb-->
+                    
+
+    <li><a href="index3.html"><i class="fa fa-home"></i></a></li>
+    <li class="active"><a href="index3.html">社区首页</a></li>
+        <li class="active"><a href="">建站技巧</a></li>
+        
+  
+
+
+                </ul>
+            </ul>
+            <!--/breadcrumb-->
+            <!--search-group-->
+            <div class="search-group">
+                <form action="/boards/search" method="get">    <input type="text" class="search-input" name="searchterms" placeholder="搜索">
+    <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
+</form>
+            </div>
+            <!--/search-group-->
+
+        </div>
+        <!--/container-topbar-->
+        <!--thread-wrap-->
+        <div class="thread-wrap">
+            <div class="thread-board-title"></div>
+
+            <!--thread-container-->
+            <div class="thread-container">
+
+                <!--thread-header-->
+                <div class="thread-header clearfix">
+
+                    <!--thread-type-->
+                    <ul class="thread-type clearfix" id="forumtopictype">
+                        <li class="thread-type-item  active" data="0"><a href="javascript:void(0)">全部</a></li>
+                    </ul>
+                    <!--/thread-type-->
+                    <!--thread-toolbar-->
+                    <div class="thread-toolbar">
+
+                        <span class="pull-left">
+                            <div class="thread-select-group">
+                                <div class="thread-select-title">筛选：</div>
+                                <div class="cube-select" data-toggle="cube-select" id="datelimit">
+                                    <input type="text" value="全部时间" readonly="">
+                                    <ul>
+                                        <li data="0">全部时间</li>
+                                        <li data="1">一天</li>
+                                        <li data="2">两天</li>
+                                        <li data="7">一周</li>
+                                        <li data="31">一个月</li>
+                                        <li data="92">三个月</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="thread-select-group">
+                                <div class="thread-select-title">排序：</div>
+                                <div class="cube-select" data-toggle="cube-select" id="orderby">
+                                    <input type="text" value="回复时间" readonly="">
+                                    <ul>
+                                        <li data="1">回复时间</li>
+                                        <li data="2">发帖时间</li>
+                                        <li data="3">回复数量</li>
+                                        <li data="4">查看数量</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </span>
+
+                        <span class="thread-pack pull-right" id="topictype">
+                            <span class="thread-pack-item">
+                                <div class="checkbox inline-block">
+                                    <label><input type="checkbox" value="" id="opennewwindow" class="form-checkbox"> 新窗</label>
+                                </div>
+                            </span>
+                            <span class="thread-pack-item active"><a data="0" href="javascript:void(0)">最新</a></span>
+                            <span class="thread-pack-item "><a data="1" href="javascript:void(0)">热门</a></span>
+                            <span class="thread-pack-item "><a data="2" href="javascript:void(0)">精华</a></span>
+                        </span>
+                    </div>
+                    <!--/thread-toolbar-->
+
+                </div>
+                <!--thread-header-->
+                <!--thread-list-->
+                <ul class="thread-list clearfix">
+                    <li class="thread-list-item clearfix">
+                        <div class="thread-list-header">
+                            <img src="static/picture/286.jpg">
+                        </div>
+                        <div class="thread-list-info">
+                            <div class="thread-list-title">
+                                <a href="javascript:;">老司机教你用好容器组件</a>
+<i class="fa fa-photo text-primary"></i>                                <i class="fa fa-diamond text-info"></i>                                <i class="fa fa-fire text-danger"></i>                            </div>
+                            <p class="thread-list-infobar">
+                                <span class="pull-left"><a href="javascript:;">sim</a> 2016-03-29 23:24:30 发表在 <a href="#"></a> 最后回复于 2016-04-15<a href="#">置顶</a></span>
+                                <span class="pull-right">
+                                    <i class="fa fa-eye"></i> 2953
+                                    <i class="fa fa-comment"></i> 2
+                                </span>
+                            </p>
+                        </div>
+                    </li>                    <li class="thread-list-item clearfix">
+                        <div class="thread-list-header">
+                            <img src="static/picture/100.jpg">
+                        </div>
+                        <div class="thread-list-info">
+                            <div class="thread-list-title">
+                                <a href="javascript:;">图片控件使用小技巧</a>
+                                <i class="fa fa-diamond text-info"></i>                                <i class="fa fa-fire text-danger"></i>                            </div>
+                            <p class="thread-list-infobar">
+                                <span class="pull-left"><a href="javascript:;">37769325@qq</a> 2016-03-31 23:19:14 发表在 <a href="#"></a> 最后回复于 2016-03-31<a href="#">置顶</a></span>
+                                <span class="pull-right">
+                                    <i class="fa fa-eye"></i> 2539
+                                    <i class="fa fa-comment"></i> 0
+                                </span>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <!--/thread-list-->
+
+                <div class="thread-list-topbar">版块主题</div>
+
+                <!--thread-list-->
+                <ul class="thread-list clearfix">
+                    <li class="thread-list-item clearfix">
+                        <div class="thread-list-header">
+                            <img src="static/picture/noavatar_small.gif">
+                        </div>
+                        <div class="thread-list-info">
+                            <div class="thread-list-title">
+                                <a href="如何使用微魔方建网站.html">如何使用微魔方建网站</a>
+<i class="fa fa-photo text-primary"></i>                                <i class="fa fa-diamond text-info"></i>                                <i class="fa fa-fire text-danger"></i>                            </div>
+                            <p class="thread-list-infobar">
+                                <span class="pull-left"><a href="javascript:;">微魔方-木木</a> 2017-11-05 11:57:40 发表在 <a href="#"></a> 最后回复于 2019-11-19</span>
+                                <span class="pull-right">
+                                    <i class="fa fa-eye"></i> 4396
+                                    <i class="fa fa-comment"></i> 50
+                                </span>
+                            </p>
+                        </div>
+                    </li>                    <li class="thread-list-item clearfix">
+                        <div class="thread-list-header">
+                            <img src="static/picture/noavatar_small.gif">
+                        </div>
+                        <div class="thread-list-info">
+                            <div class="thread-list-title">
+                                <a href="javascript:;">如何修改robots里面的内容</a>
+                                                                                            </div>
+                            <p class="thread-list-infobar">
+                                <span class="pull-left"><a href="javascript:;">liusa@bailebio.com</a> 2019-11-12 23:29:40 发表在 <a href="#"></a> 最后回复于 2019-11-12</span>
+                                <span class="pull-right">
+                                    <i class="fa fa-eye"></i> 85
+                                    <i class="fa fa-comment"></i> 1
+                                </span>
+                            </p>
+                        </div>
+                    </li>                    <li class="thread-list-item clearfix">
+                        <div class="thread-list-header">
+                            <img src="static/picture/noavatar_small.gif">
+                        </div>
+                        <div class="thread-list-info">
+                            <div class="thread-list-title">
+                                <a href="javascript:;">修改了页面地址后，网站域名变回了之前的二级域名，不是我自己绑定的域名了</a>
+                                                                                            </div>
+                            <p class="thread-list-infobar">
+                                <span class="pull-left"><a href="javascript:;">liusa@bailebio.com</a> 2019-11-05 23:31:09 发表在 <a href="#"></a> 最后回复于 2019-11-06</span>
+                                <span class="pull-right">
+                                    <i class="fa fa-eye"></i> 83
+                                    <i class="fa fa-comment"></i> 3
+                                </span>
+                            </p>
+                        </div>
+                    </li>                    <li class="thread-list-item clearfix">
+                        <div class="thread-list-header">
+                            <img src="static/picture/noavatar_small.gif">
+                        </div>
+                        <div class="thread-list-info">
+                            <div class="thread-list-title">
+                                <a href="javascript:;">微魔方的标签组件有什么用啊？</a>
+                                                                <i class="fa fa-fire text-danger"></i>                            </div>
+                            <p class="thread-list-infobar">
+                                <span class="pull-left"><a href="javascript:;">15207109253</a> 2019-08-23 11:42:41 发表在 <a href="#"></a> 最后回复于 2019-08-23</span>
+                                <span class="pull-right">
+                                    <i class="fa fa-eye"></i> 122
+                                    <i class="fa fa-comment"></i> 1
+                                </span>
+                            </p>
+                        </div>
+                    </li>                    <li class="thread-list-item clearfix">
+                        <div class="thread-list-header">
+                            <img src="static/picture/noavatar_small.gif">
+                        </div>
+                        <div class="thread-list-info">
+                            <div class="thread-list-title">
+                                <a href="javascript:;">怎么运用好QQ客服组件</a>
+                                                                <i class="fa fa-fire text-danger"></i>                            </div>
+                            <p class="thread-list-infobar">
+                                <span class="pull-left"><a href="javascript:;">惶恐</a> 2016-12-18 10:08:58 发表在 <a href="#"></a> 最后回复于 2019-02-19</span>
+                                <span class="pull-right">
+                                    <i class="fa fa-eye"></i> 4886
+                                    <i class="fa fa-comment"></i> 24
+                                </span>
+                            </p>
+                        </div>
+                    </li>                    <li class="thread-list-item clearfix">
+                        <div class="thread-list-header">
+                            <img src="static/picture/286.jpg">
+                        </div>
+                        <div class="thread-list-info">
+                            <div class="thread-list-title">
+                                <a href="javascript:;">网站关键字要怎么写？</a>
+                                                                <i class="fa fa-fire text-danger"></i>                            </div>
+                            <p class="thread-list-infobar">
+                                <span class="pull-left"><a href="javascript:;">sim</a> 2016-06-21 17:15:53 发表在 <a href="#"></a> 最后回复于 2016-06-21</span>
+                                <span class="pull-right">
+                                    <i class="fa fa-eye"></i> 2305
+                                    <i class="fa fa-comment"></i> 0
+                                </span>
+                            </p>
+                        </div>
+                    </li>                    <li class="thread-list-item clearfix">
+                        <div class="thread-list-header">
+                            <img src="static/picture/288.png">
+                        </div>
+                        <div class="thread-list-info">
+                            <div class="thread-list-title">
+                                <a href="javascript:;">图片背景网页在网站建设中的运用</a>
+<i class="fa fa-photo text-primary"></i>                                                                <i class="fa fa-fire text-danger"></i>                            </div>
+                            <p class="thread-list-infobar">
+                                <span class="pull-left"><a href="javascript:;">wemorefun</a> 2016-02-26 18:20:35 发表在 <a href="#"></a> 最后回复于 2016-02-26</span>
+                                <span class="pull-right">
+                                    <i class="fa fa-eye"></i> 2286
+                                    <i class="fa fa-comment"></i> 0
+                                </span>
+                            </p>
+                        </div>
+                    </li>                    <li class="thread-list-item clearfix">
+                        <div class="thread-list-header">
+                            <img src="static/picture/288.png">
+                        </div>
+                        <div class="thread-list-info">
+                            <div class="thread-list-title">
+                                <a href="javascript:;">如何调整发布的文章或产品在网页显示的顺序？</a>
+<i class="fa fa-photo text-primary"></i>                                                                <i class="fa fa-fire text-danger"></i>                            </div>
+                            <p class="thread-list-infobar">
+                                <span class="pull-left"><a href="javascript:;">wemorefun</a> 2016-02-26 18:18:07 发表在 <a href="#"></a> 最后回复于 2016-02-26</span>
+                                <span class="pull-right">
+                                    <i class="fa fa-eye"></i> 2131
+                                    <i class="fa fa-comment"></i> 0
+                                </span>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <!--/thread-list-->
+
+                <div class="thread-list-pagination">
+
+                    
+                </div>
+
+            </div>
+            <!--/thread-container-->
+            <!--thread-sidebar-->
+            <div class="thread-sidebar">
+
+                <!--post-btn-->
+                <a href="javascript:;" class="thread-sidebar-post-btn"><i class="fa fa-pencil"></i> 发表新帖</a>
+                <!--/post-btn-->
+
+                <div class="hot-forum thread-sidebar-hot-forum margin-bottom-10">
+                    <div class="hot-forum-title">热门版块</div>
+                    <ul class="hot-forum-list clearfix">
+                        <li>
+                            <a href="javascript:;">BUG反馈</a>
+                        </li>                        <li>
+                            <a href="产品指南.html">产品指南</a>
+                        </li>                        <li>
+                            <a href="javascript:;">用户交流</a>
+                        </li>                        <li>
+                            <a href="javascript:;">资源分享</a>
+                        </li>                        <li>
+                            <a href="">建站技巧</a>
+                        </li>                        <li>
+                            <a href="动态公告.html">动态公告</a>
+                        </li>                        <li>
+                            <a href="javascript:;">产品建议</a>
+                        </li>                        <li>
+                            <a href="javascript:;">产品更新</a>
+                        </li>                        <li>
+                            <a href="javascript:;">模板推荐</a>
+                        </li>                        <li>
+                            <a href="javascript:;">案例欣赏</a>
+                        </li>                    </ul>
+                </div>
+
+                <!--thread-sidebar-box-->
+                <div class="thread-sidebar-box">
+                    <h3 class="thread-sidebar-box-titlebar">热帖排行</h3>
+                    <ul class="thread-sidebar-box-list">
+                        <li><a href="javascript:;">怎么运用好QQ客服组件</a></li>                        <li><a href="javascript:;">如何使用微魔方建网站</a></li>                        <li><a href="javascript:;">老司机教你用好容器组件</a></li>                        <li><a href="javascript:;">图片控件使用小技巧</a></li>                        <li><a href="javascript:;">网站关键字要怎么写？</a></li>                        <li><a href="javascript:;">图片背景网页在网站建设中的运用</a></li>                        <li><a href="javascript:;">如何调整发布的文章或产品在网页显示的顺序？</a></li>                        <li><a href="javascript:;">微魔方的标签组件有什么用啊？</a></li>                        <li><a href="javascript:;">如何修改robots里面的内容</a></li>                        <li><a href="javascript:;">修改了页面地址后，网站域名变回了之前的二级域名，不是我自己绑定的域名了</a></li>                    </ul>
+                </div>
+                <!--/thread-sidebar-box-->
+
+            </div>
+            <!--/thread-sidebar-->
+
+        </div>
+        <!--/thread-wrap-->
+
+    </div>
+</div>
+<!--/container-wrap-->
+<!--icheck-->
+<script src="static/js/icheck.min1.js"></script>
+<script>
+    $(function () {
+        $('[data-toggle="cube-select"]').click(function (e) {
+            $('[data-toggle="cube-select"]').find('ul').hide();
+            $(this).find('ul').show();
+            e.stopPropagation();
+        });
+
+        $('[data-toggle="cube-select"] li').hover(function (e) {
+            $(this).toggleClass('on');
+            e.stopPropagation();
+        });
+
+        $('[data-toggle="cube-select"] li').click(function (e) {
+            var val = $(this).text();
+            $(this).parents('[data-toggle="cube-select"]').find('input').val(val);
+            $('[data-toggle="cube-select"] ul').hide();
+            e.stopPropagation();
+        });
+
+        $(document).click(function () {
+            $('[data-toggle="cube-select"] ul').hide();
+        });
+
+        if ($('.form-checkbox').length > 0) {
+            $('input.form-checkbox,input.form-radio').iCheck({
+                checkboxClass: 'icheckbox_minimal-grey',
+                radioClass: 'iradio_minimal-grey',
+                increaseArea: '20%'
+            });
+        }
+        $("#forumtopictype li").click(function () {
+            window.location.href = "/boards/forum/5/%E5%BB%BA%E7%AB%99%E6%8A%80%E5%B7%A7?date=0&orderby=0&topictypeId=0&forumtopictype=" + $(this).attr("data");
+        })
+        $("#datelimit li").click(function () {
+            window.location.href = "/boards/forum/5/%E5%BB%BA%E7%AB%99%E6%8A%80%E5%B7%A7?orderby=0&forumtopictype=0&topictypeId=0&date=" + $(this).attr("data");
+        })
+        $("#orderby li").click(function () {
+            window.location.href = "/boards/forum/5/%E5%BB%BA%E7%AB%99%E6%8A%80%E5%B7%A7?forumtopictype=0&topictypeId=0&date=0&orderby=" + $(this).attr("data");
+        })
+        $("#topictype a").click(function () {
+            window.location.href = "/boards/forum/5/%E5%BB%BA%E7%AB%99%E6%8A%80%E5%B7%A7?date=0&orderby=0&forumtopictype=0&topictypeId=" + $(this).attr("data");
+        })
+        $("#opennewwindow").on("ifChanged",function () {
+            if ($("#opennewwindow").prop("checked")) {
+                $(".thread-list a").attr('target','_blank')
+            }else
+            {
+                $(".thread-list a").removeAttr('target')
+            }
+        })
+    });
+</script>
+
+        <div class="footer-wrap clearfix">
+            <div class="inner-wrap clearfix">
+                © 2015 长沙企驰网络科技有限公司 版权所有 湘ICP备16000517号  技术支持: 微魔方
+            </div>
+        </div>
+        <!--/footer-wrap-->
+    </div>
+    <!--/wrap-->
+
+</body>
+</html>

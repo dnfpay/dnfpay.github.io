@@ -1,0 +1,24 @@
+.doc-html, .doc-body { margin: 0; padding: 0; height: 100%; }
+.page-wrap { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; box-sizing: content-box; background-color: transparent; background-image: none; background-repeat: repeat; background-position: left top; background-attachment: fixed; }
+.page-inner, .page-header, .page-body, .page-footer { position: relative; margin: 0 auto; }
+.page-grid { width: 100%; height: 100%; background: url(../image/grid-970.png) repeat; z-index: 0; }
+
+.page-inner { z-index: 20000; }
+.page-mask { z-index: 30000; }
+.page-footer { bottom: 0; }
+.page-header { top: 0; border:0;}
+
+.page-mask { position: absolute; top: 0; right: 0; bottom: 0; left: 0; background-color: rgba(0,0,0,.6); }
+
+
+.floatbar-code { width: 58px; height: 48px; background-color: rgba(55,188,155,.8); cursor: pointer; }
+.floatbar-code .code-icon { height: 58px; line-height: 48px; text-align: center; color: rgba(255,255,255,.5); font-size: 32px; }
+
+.floatbar-code:hover {}
+.floatbar-code:hover .code-icon { background-color:rgba(255,255,255,.1); color:rgba(255,255,255,1);}
+.transparent {  
+                         filter:alpha(opacity=0);  
+                     -moz-opacity:0;  
+                     -khtml-opacity: 0;  
+                     opacity: 0;  
+                 }

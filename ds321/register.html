@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>微魔方-注册</title>
+    <meta name="keywords" content="微魔方,自助建站,智能建站,自助拖拽建站,免费建站,网站建设,网站制作,网站设计,网页设计,网站模板,网页模板,企业建站,微站,手机建站,手机网站,企驰微魔方,自由拖拽">
+    <meta name="description" content="">
+    <!-- base -->
+    <link href="static/css/cube.css" rel="stylesheet">
+    <link href="static/css/font-awesome.min1.css" rel="stylesheet">
+    <link href="static/css/sim.theme.css" rel="stylesheet">
+    <link href="static/css/newlogin.css" rel="stylesheet">
+    <script src="static/js/jquery-1.10.2.min.js"></script>
+    <script src="static/js/jquery.validate.min.js"></script>
+    <script src="static/js/jquery.validate.unobtrusive.min.js"></script>
+    <script src="static/js/canvasbg.js"></script>
+    <script src="static/js/jquery.modal.min.js"></script>
+    <script src="static/js/login.js"></script>
+    <!--[if lt IE 9]>
+     <link href="static/css/font-awesome-ie7.min.css" rel="stylesheet">
+     <script src="static/js/html5shiv.js"></script>
+    <script src="static/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="login-body">
+    <div id="canvas-wrapper">
+        <canvas id="demo-canvas"></canvas>
+    </div>
+    <!--login-box-->
+    <div class="login-box">
+        <!--login-container-->
+        <div class="login-container">
+            <!--login-topbar-->
+            <div class="login-topbar">
+                <div class="login-logo">
+                    <img src="static/picture/logo.png">
+                </div>
+                <div class="topbar-link">
+                    <a href="index1.html">微魔方首页</a>
+                    <a href="index2.html" target="_blank">帮助中心</a>
+                </div>
+            </div>
+            <!--/login-topbar-->
+            <!--login-form-->
+<form action="/register" method="post"><div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div><input id="CustomerSource" name="CustomerSource" type="hidden" value="">            <div class="login-form">
+                <div class="login-form-item">
+                    <div class="login-form-group">
+                        <div class="login-form-icon"><i class="fa fa-phone"></i></div>
+                        <input class="login-input-text" data-val="true" data-val-regex="请填写正确的手机号码" data-val-regex-pattern="((\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$)" data-val-remote="手机号已被使用" data-val-remote-additionalfields="Mobile" data-val-remote-type="post" data-val-remote-url="/Customer/MobileValid" data-val-required="请填写手机号" id="Mobile" name="Mobile" placeholder="手机号" tabindex="1" type="text" value="">
+                    </div>
+                </div>
+
+                <div class="login-form-item">
+                    <div class="login-form-group">
+                        <div class="login-form-icon"><i class="fa fa-comments-o"></i></div>
+                        <input class="login-input-text" data-val="true" data-val-required="请填写验证码" id="CheckCode" name="CheckCode" placeholder="验证码" style="width:40%" tabindex="2" type="text" value="">
+                        <div class="vcode"><img id="imgvcode" align="absMiddle" alt="请输入您看到的内容" src="static/picture/CheckCode-20191217132649.jpg" title="点击刷新图片校验码"><a href="javascript:void" id="changevcodetext" class="mod-form-vcode-img-text">看不清，换一张</a></div>
+                        
+                    </div>
+                </div>
+                <div class="login-form-item">
+                    <div class="login-form-group">
+                        <div class="login-form-icon"><i class="fa fa-comments-o"></i></div>
+                        <input class="login-input-text" data-val="true" data-val-required="请填写短信验证码" id="VerifyCode" name="VerifyCode" placeholder="短信验证码" tabindex="2" type="text" value="">
+                        <button class="vcode-img" type="button" id="sendcode">获取验证码</button>
+                    </div>
+                </div>
+
+                <div class="login-form-item">
+                    <div class="login-form-group">
+                        <div class="login-form-icon"><i class="fa fa-lock"></i></div>
+                        <input class="login-input-text" data-val="true" data-val-length="密码至少6位字符" data-val-length-max="50" data-val-length-min="6" data-val-required="请填写密码" id="Password" name="Password" placeholder="密码" tabindex="3" type="password">
+                    </div>
+                </div>
+
+                <div class="login-form-item">
+                    <div class="login-form-group">
+                        <div class="login-form-icon"><i class="fa fa-lock"></i></div>
+                        <input class="login-input-text" data-val="true" data-val-equalto="两次密码输入不一致" data-val-equalto-other="*.Password" data-val-required="请填写确认密码" id="ConfirmPassword" name="ConfirmPassword" placeholder="确认密码" tabindex="4" type="password">
+                    </div>
+                </div>
+                <div class="pw-operate">
+                    <span>
+                        <label class="pwcheck">
+                            <span class="checkbox_yes" style="display: block;">&nbsp;</span><span>我已经认真阅读并同意微魔方的</span>
+                            <input type="checkbox" checked="checked" class="form-checkbox" id="disclaimer">
+                        </label>
+                        <a href="javascript:void(0);" class="xieyi" data-modal-id="modal-disclaimer">《使用协议》</a>
+                    </span>
+                    <a href="login.html" style="margin-left:-15px;">有账号 去登录》</a>
+                </div>
+
+                <div class="login-form-item">
+                    <input id="btnRegister" class="login-btn" type="submit" value="免费注册" title="免费注册">
+                </div>
+            </div>
+</form>            <!--/login-form-->
+        </div>
+        <!--/login-container-->
+    </div>
+    <!--/login-box-->
+
+    <div id="modal-disclaimer" class="modal modal-info modal-lg modal-disclaimer">
+        <div class="modal-heading">
+            <span class="right-content close-modal">&#215;</span>
+            <div class="modal-title"><strong>服务条款&隐私政策</strong></div>
+        </div>
+        <div class="modal-body">
+            <div class="disclaimer-content">
+                <p>本服务条款是您与长沙企驰网络科技有限公司（下称企驰）之间的协议。wemorefun.com（下称本服务）是由企驰提供的互联网软件服务。在本服务创建账户并使用之前，您必须首先同意此条款。</p>
+                <p>此条款在必要时将进行修订，且毋须另行通知。修订后的条款一旦在网页上公布即有效代替原来的服务条款。</p>
+                <p class="text-bold">(一) 账户 </p>
+                <p> 您同意并理解您有责任将您与用于获得服务的任何帐户相关的密码保密。您负责对您账户下发生的所有的行为和内容负责。 您的帐号使用权仅属于初始申请注册人即您本人，禁止赠与、借用、租用、转让或售卖。如果企驰发现使用者并非帐号初始注册人，企驰无需通知，有权收回帐号而无需向该帐号使用人承担法律责任，由此带来的包括并不限于您的页面无法访问、资料和内容丢失等损失由用户自行承担。企驰禁止您私下有偿或无偿转让帐号，以免因帐号问题产生纠纷，您应当自行承担因违反此要求而遭致的任何损失，同时企驰保留追究上述行为人法律责任的权利。 </p>
+                <p>您承担其企驰帐号与密码的保管责任，并对利用该密码和帐号所进行的一切活动负全部责任；由该等活动所导致的任何损失或损害由您承担，企驰不承担任何责任。您须重视企驰帐号及帐号密码。您同意如发现他人未经许可使用其帐号时立即通知企驰。</p>
+                <p class="text-bold">(二) 付款 </p>
+                <p>您注册本服务或其中某服务，即表示您同意支付其中的所有费用。 </p>
+                <p>企驰可能要求您提供经我们认可的发卡机构发行的信用卡卡号来激活您的服务，和/或支付服务的任何相关费用。企驰将从您提供的帐户或信用卡帐户中收取使用费及其他费用。如果授权企驰通过信用卡收取您的账户相关费用，即表示您授权企驰自动从该卡持续扣除账户相关的所有费用。 </p>
+                <p>企驰有权根据实际情况随时调整收费标准，但该调整不会对您已经购买的服务产生影响。服务费用的调整均以企驰官网 www.wemorefun.com 公示为准。 </p>
+                <p>服务费用不包含因您及其他用户访问互联网或移动网络而产生的相关费用。无论本服务收费与否，您均应自行承担因使用本服务而向包括网络运营商在内的第三方支付的相关费用，例如，互联网接入费、手机流量费、手机短信费等。</p>
+                <p>企驰主要支持市面上的主流社交媒体（谷歌浏览器、微信、微博、QQ）传播，非主流社交软件或浏览器若发生无法正常使用企驰服务的情况，企驰不对此负责。 </p>
+                <p>除非因为企驰方面的问题导致本服务无法正常提供，您支付的有关本服务的所有费用均不能退款。 </p>
+                <p class="text-bold">(三) 内容和版权 </p>
+                <p>企驰对您在本服务提交的内容没有所有权，这些内容的所有权仍然归您所有。但是，如果您将页面设置为发布，就意味着您允许其他人查看和共享您的内容。</p>
+                <p>您明白企驰对他人提供的任何内容不在任何方面负责或负有责任，除非企驰收到相反通知，企驰将您视为其在本网站上传或发布的内容的著作权人或合法的授权人。</p>
+                <p>企驰没有义务预先审查此类内容。但是，企驰有权随时决定内容是否合适和与本条款相符；如果发现此类内容违反本条款或在其他方面令人反感，企驰可随时并有绝对酌情权预先审查、转移、拒绝、修改和/或删除内容，而不需事先通知。 </p>
+                <p>因您进行上述作品和内容在本网站的上传或发布而导致任何第三方提出索赔要求或衍生的任何损害或损失，您同意赔偿企驰及其分公司、关联公司、代理人或其他合作伙伴及员工，并使其免受损害。 </p>
+                <p class="text-bold">(四) 隐私政策</p>
+                <p>使用本服务，即表示您同意企驰合法收集和使用有关您及您所使用本服务的技术性或诊断性信息。收集到的些信息将用于改进网页的内容，提升我们的服务品质。 </p>
+                <p>企驰不会将您的信息和内容分享或出售给其他的组织。但以下情况除外：</p>
+                <p>1.您同意让第三方共享资料； </p>
+                <p>2.企驰需要听从法庭传票、法律命令或遵循法律程序； </p>
+                <p>3.您违反了本条款。 </p>
+                <p class="text-bold">(五) 知识产权
+                <p>本服务是由企驰开发。本服务的一切版权、商标权、专利权、商业秘密等知识产权，以及与本服务相关的所有信息内容，包括但不限于：文字表述及其组合、图标、图饰、图表、色彩、界面设计、版面框架、有关数据、印刷材料、或电子文档等均受中华人民共和国著作权法、商标法、专利法、反不正当竞争法和相应的国际条约以及其他知识产权法律法规的保护，除涉及第三方授权的软件或技术外，企驰享有上述知识产权。 </p>
+                <p>未经企驰书面同意，所有用户不得为任何营利性或非营利性的目的自行对上述产品、服务、信息、材料的任何部分进行使用、复制、修改、抄录、传播或与其它产品捆绑使用、销售。 </p>
+                <p class="text-bold">(六) 终止 </p>
+                <p>您可随时终止您的帐户和/或停用本服务。您在服务终止前支付的任何费用均不能退还（除本服务条款另有明文允许者除外）。 </p>
+                <p>企驰可随时在某些情况下，不需事先通知，立即终止或暂停您所有或部分帐户和/或本服务之进入。此类服务终止的原因包括但不限于： </p>
+                <p>1.违反本服务条款；</p>
+                <p>2.您要求取消或终止您的帐户；</p>
+                <p>3.需要听从法庭传票、法律命令或遵循法律程序； </p>
+                <p>4.突发的自然灾害导致的问题； </p>
+                <p>5.战争、军事行动、暴动或武装叛乱；</p>
+                <p>6.您没有支付与本服务相关的费用。 </p>
+                <p>一旦您的帐户被终止，阁下将无法正常使用本服务。此外，您可以选择删除您账户下的所有信息和内容。 </p>
+                <p class="text-bold">(七) 其他 </p>
+                <p>本服务的替换、修改和升级：企驰保留并有权在任何时候不经通知通过为您提供本服务替换、修改、升级版本的权利以及为替换、修改或升级收取费用的权利。企驰保留因业务发展需要，单方面对服务的部分功能效果进行改变或进行限制，所有用户需承担此风险。 </p>
+                <p>企驰有权在服务中或经过服务投放各种广告和宣传信息,如产生相关收益均由 企驰 单独享有，所有用户对此已充分理解并完全同意。</p>
+                <div class="text-right clearfix padding-top-20">
+                    <p>最近修订 2015 年 12 月 8 日。</p>
+                    <p>©长沙企驰网络科技有限公司保留一切权利。</p>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer text-center">
+            <div class="btn btn-default close-modal">关闭</div>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            $("#disclaimer").change(function () {
+                if ($(this).is(':checked')) {
+                    $(this).parent(".pwcheck").find(".checkbox_no").removeClass("checkbox_no").addClass("checkbox_yes");
+                    $("#btnRegister").removeAttr("disabled");
+                } else {
+                    $(this).parent(".pwcheck").find(".checkbox_yes").removeClass("checkbox_yes").addClass("checkbox_no");
+                    $("#btnRegister").attr("disabled", "disabled");
+                }
+            });
+            function changevcode() {
+                $("#imgvcode").attr("src", "/Customer/CheckCode?t=" + new Date().getTime())
+            }
+            $("#changevcodetext,#imgvcode").on("click", changevcode);
+            $("#sendcode").on("click", function () {
+                $("form").validate().prepareForm();
+                if ($("form").validate().check($("#Mobile")[0]) && $("form").validate().check($("#CheckCode")[0])) {
+                    var that = this, timeout = 120;
+                    $(this).text("短信发送中...");
+                    $(this).attr("disabled", "disabled");
+                    $.post("/Customer/GetMobileCheckCode", { mobile: $("#Mobile").val(), templateID: "17928", checkCode: $("#CheckCode").val() }, function (data) {
+                        if (data.result) {
+                            var sendSMS = setInterval(function () {
+                                $(that).text("重新发送（" + timeout + "）");
+                                timeout--;
+                                if (timeout == 0) {
+                                    $(that).text("获取验证码");
+                                    clearInterval(sendSMS);
+                                    $(that).removeAttr("disabled");
+                                }
+                            }, 1000)
+                        } else {
+                            alert(data.message);
+                            changevcode();
+                            $(that).text("获取验证码");
+                            $(that).removeAttr("disabled");
+                        }
+                    })
+                } else {
+                    changevcode();
+                    $("form").triggerHandler("invalid-form", [$("form").validate()]);
+                }
+
+
+            })
+        })
+    </script>
+</body>
+</html>

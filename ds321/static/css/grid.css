@@ -1,0 +1,28 @@
+.form-row { zoom:1; clear:both;}
+.form-row:after,.row:before { display:table; content:"";}
+.form-row:after { clear:both;}
+.container { margin-right:auto; margin-left:auto; padding-right:15px; padding-left:15px;}
+
+.col-1 { float:left; width:8.333333333333334%; *width:expression(Math.floor(this.parentNode.clientWidth*1/12)+'px');}
+.col-2 { float:left; width:16.666666666666668%; *width:expression(Math.floor(this.parentNode.clientWidth*2/12)+'px');}
+.col-3 { float:left; width:25%; *width:expression(Math.floor(this.parentNode.clientWidth*3/12)+'px');}
+.col-4 { float:left; width:33.333333333333336%; *width:expression(Math.floor(this.parentNode.clientWidth*4/12)+'px');}
+.col-5 { float:left; width:41.666666666666664%; *width:expression(Math.floor(this.parentNode.clientWidth*5/12)+'px');}
+.col-6 { float:left; width:50%; *width:expression(Math.floor(this.parentNode.clientWidth*6/12)+'px');}
+.col-7 { float:left; width:58.333333333333336%; *width:expression(Math.floor(this.parentNode.clientWidth*7/12)+'px');}
+.col-8 { float:left; width:66.66666666666667%; *width:expression(Math.floor(this.parentNode.clientWidth*8/12)+'px');}
+.col-9 { float:left; width:75%; *width:expression(Math.floor(this.parentNode.clientWidth*9/12)+'px');}
+.col-10 { float:left; width:83.33333333333333%; *width:expression(Math.floor(this.parentNode.clientWidth*10/12)+'px');}
+.col-11 { float:left; width:91.66666666666667%; *width:expression(Math.floor(this.parentNode.clientWidth*11/12)+'px');}
+.col-12 { float:left; width:100%; *width:expression(Math.floor(this.parentNode.clientWidth*12/12)+'px');}
+
+.mod-form-mark-group { position:relative;}
+.mod-form-mark-group .mod-form-mark { display:none;}
+.mod-form-mark-group:hover .mod-form-mark { display:block; position:absolute; top:-5px; right:-1px; bottom:-5px; left:-1px; z-index:10; border:1px solid rgba(59,175,218,.6); background-color:rgba(59,175,218,.2);}
+.mod-form-mark-group:hover .mod-form-mark .mod-form-mark-btn { position:absolute; top:50%; right:10px; z-index:10; display:block; margin-top:-16px; width:32px; height:32px; line-height:32px; text-align:center; cursor:move;}
+.mod-form-mark-btn:before { font-family:"FontAwesome"; content:"\f0c9"; font-size:14px; color:#3BAFDA;}
+
+.form-widget-panel { position:absolute; top:-25px; left:-1px; min-width:300px; display:block; margin:0; padding:0; list-style:none; text-align:left; font-size:0;}
+.form-widget-panel .form-widget-panel-item { display:inline-block; margin:0; padding:0; cursor:pointer;}
+.form-widget-panel .form-widget-panel-item a { padding:5px 8px 6px 8px; background-color:#279AC3; font-size:14px; color:#fff;}
+.form-widget-panel .form-widget-panel-item a:hover { background-color:#31b0d5; color:#fff; text-decoration:none;}
